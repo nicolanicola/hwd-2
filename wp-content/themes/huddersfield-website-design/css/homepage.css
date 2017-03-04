@@ -1,0 +1,13 @@
+.home-hero__image {
+    background-color:#3f3c3c ;
+    padding-top:40px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.home-hero__text {
+    background-color: #dfdfdf;
+    font-weight: 300;
+    padding: 20px;
+    font-size:24px;
+}

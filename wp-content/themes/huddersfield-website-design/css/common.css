@@ -1,0 +1,9 @@
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
