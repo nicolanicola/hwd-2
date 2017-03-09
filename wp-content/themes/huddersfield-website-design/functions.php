@@ -2,6 +2,29 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
+function sendContactFormToSiteAdmin () {
+	try {
+		if (!is_email($_POST['email'])) {
+			throw new Exception('Email address not formatted correctly.');
+		}
+
+		$headers = 'From: My Blog Contact Form <contact@hwd.com>';
+		$send_to = "elvin.nicola@gmail.com";
+		$subject = "Message from ".$_POST['name'];
+		$message = "Message from ".$_POST['name'].": \n\n ". $_POST['message'] . " \n\n Reply to: " . $_POST['email'];
+		if (wp_mail($send_to, $subject, $message, $headers)) {
+			echo json_encode(array('status' => 'success', 'message' => 'Contact message sent.'));
+			exit;
+		} else {
+			throw new Exception('Failed to send email. Check AJAX handler.');
+		}
+	} catch (Exception $e) {
+		echo json_encode(array('status' => 'error', 'message' => $e->getMessage()));
+		exit;
+	}
+}
+add_action("wp_ajax_contact_send", "sendContactFormToSiteAdmin");
+add_action("wp_ajax_nopriv_contact_send", "sendContactFormToSiteAdmin");
 
 
 function prefix_add_my_stylesheet() {

@@ -1,7 +1,12 @@
 body {
     font-family: Lato;
     color: #201f1f;
+    line-height: 2.5em;
 }
+textarea, input {
+    font-family: Lato;
+}
+
 
 a {
     color: #201f1f;
@@ -18,4 +23,24 @@ a:hover, a:focus  {
 
 .u-border-bottom-black {
     border-bottom: 1px solid black;
+}
+.button {
+    border:0;
+}
+.button:focus {
+    outline: 0;
+}
+
+input:focus, textarea:focus {
+    outline:1px solid #9ee430;
+}
+
+.button--primary {
+    background-color:#9ee430;
+    font-weight:bold;
+}
+
+.button--block {
+    display: block;
+    width: 100%;
 }

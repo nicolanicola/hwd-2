@@ -25,7 +25,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
-    <script src="<?php bloginfo( 'template_directory' ); ?>/js/modernizr-1.6.min.js"></script>
+    <script src="<?php bloginfo( 'template_directory' ); ?>/javascript/modernizr-1.6.min.js"></script>
 
     <?php
     /* We add some JavaScript to pages with the comment form
@@ -59,7 +59,7 @@
                 <?php
                 $menu = wp_get_nav_menu_items( 'main' );
                 if ( $menu ):?>
-                    <div class="mobile-menu  hidden-md-up">
+                    <div class="mobile-menu  hidden-lg-up">
                         <button class="mobile-menu__toggle  js-toggle-mobile-menu">
                             <i class="fa fa-bars  mobile-menu__hamburger" aria-hidden="true"></i>
                         </button>
@@ -76,7 +76,7 @@
                         </ul>
                     </div>
 
-                    <div class="desktop-menu  hidden-sm-down  col-sm-8">
+                    <div class="desktop-menu  hidden-md-down  col-sm-8">
                         <ul class="desktop-menu__links  clearfix">
                             <?php
                             foreach ( $menu as $item ) : ?>
