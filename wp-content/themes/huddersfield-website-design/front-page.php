@@ -60,9 +60,53 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
 
+        <div class="home-previous-work">
+            <div class="container">
+
+                <h2 class="u-text-center">Previous Work</h2>
+                <div class="row">
+                    <?php $args  = array(
+                            'posts_per_page' => 9999,
+                            'post_type'      => 'website',
+                    );
+                    $posts_array = get_posts( $args );
+                    $rand_keys   = array_rand( $posts_array, 3 );
+                    $posts       = [
+                            $posts_array[ $rand_keys[0] ],
+                            $posts_array[ $rand_keys[1] ],
+                            $posts_array[ $rand_keys[2] ]
+                    ];
+                    foreach ( $posts as $post ): setup_postdata( $post ); ?>
+                        <div class="col-md-4  home-previous-work__item">
+                            <a class="home-previous-work__link" href="<?php the_permalink(); ?>">
+                                <?php $image = get_field( 'thumbnail' ); ?>
+                                <img class="img-fluid" src="<?php echo $image['url']; ?>"
+                                     alt="<?php echo $image['alt']; ?>">
+                                <h4 class="home-previous-work__title"><?php the_title(); ?></h4>
+                            </a>
+                        </div>
+                    <?php endforeach;
+                    wp_reset_postdata(); ?>
+                </div>
+            </div>
+            <?php the_field( 'previous_work_title' ); ?>
+        </div>
+        <div class="container-fluid  hidden-md-down">
+            <h2 class="u-text-center">Satisfied Customers</h2>
+            <div class="home-logos">
+                <?php $logos = get_field( 'logos' ); ?>
+                <?php $key = 0;?>
+                <ul class="clearfix">
+                    <?php foreach ( $logos as $logo ): ?>
+                        <li class="home-logos__logo">
+                            <img class="home-logos__image  img-fluid" src="<?php echo $logo['url']; ?>" title="<?php echo $logo['title'];?>" alt="<?php echo $logo['title'];?>">
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
         </div>
 
     <?php endwhile;

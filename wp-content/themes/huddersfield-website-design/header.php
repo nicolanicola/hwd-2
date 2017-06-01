@@ -81,7 +81,7 @@
                             <?php
                             foreach ( $menu as $item ) : ?>
                                 <li class="desktop-menu__list-item">
-                                    <a class="desktop-menu__link" href="<?php echo $item->guid; ?> ">
+                                    <a class="desktop-menu__link" href="<?php echo $item->url; ?> ">
                                         <?php echo $item->title; ?>
                                     </a>
                                 </li>

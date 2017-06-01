@@ -8,7 +8,7 @@ function sendContactFormToSiteAdmin () {
 			throw new Exception('Email address not formatted correctly.');
 		}
 
-		$headers = 'From: My Blog Contact Form <contact@hwd.com>';
+		$headers = 'From: HWD Contact Form <nicola@huddersfieldwebsitedesigner.co.uk>';
 		$send_to = "elvin.nicola@gmail.com";
 		$subject = "Message from ".$_POST['name'];
 		$message = "Message from ".$_POST['name'].": \n\n ". $_POST['message'] . " \n\n Reply to: " . $_POST['email'];

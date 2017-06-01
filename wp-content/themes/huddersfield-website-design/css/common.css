@@ -11,3 +11,7 @@
 .relative{
     position: relative;
 }
+
+ul {
+    padding:0
+}

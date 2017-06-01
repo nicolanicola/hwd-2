@@ -12,3 +12,9 @@
     display: inline-block;
 }
 
+.u-m-top-20 {
+    margin-top: 20px;
+}
+.u-text-right {
+    text-align: right;
+}
