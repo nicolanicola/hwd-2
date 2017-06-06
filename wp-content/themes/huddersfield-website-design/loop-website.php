@@ -13,7 +13,7 @@
 
         <?php $mobileImage = get_field( 'mobile_image' ); ?>
         <?php $hasMobileImage = get_field( 'mobile_image' ); ?>
-            <?php $imageSize = get_image_size();?>
+        <?php $imageSize = get_image_size(); ?>
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <?php $class = $mobileImage ? 'col-sm-6' : 'col-sm-12'; ?>
@@ -27,27 +27,32 @@
                 <div class="row">
                     <div class="<?php echo $class; ?>  u-text-center">
                         <?php $image = get_field( 'desktop_image' ); ?>
-                        <?php var_dump($image['sizes']); ?>
-                        <img class="img-fluid" src="<?php echo $image['sizes'][$imageSize]; ?>" alt="">
-
+                        <img class="img-fluid  u-max-height-500" src="<?php echo $image['sizes'][ $imageSize ]; ?>"
+                             title="<?php echo $image['title']; ?>" alt="<?php echo $image['alt']; ?>"/>
                     </div>
                     <div class="<?php echo $class; ?>">
                         <?php if ( $mobileImage ): ?>
                             <div class="u-text-center">
                                 <?php $image = get_field( 'mobile_image' ); ?>
-                                <img class="img-fluid" src="<?php echo $image['url']; ?>" alt="">
+                                <img class="img-fluid  u-max-height-500"
+                                     src="<?php echo $image['sizes'][ $imageSize ]; ?>"
+                                     title="<?php echo $image['title']; ?>" alt="<?php echo $image['alt']; ?>"/>
                             </div>
                         <?php else: ?>
-                            <?php the_content(); ?>
+                            <div class="the-content">
+                                <?php the_content(); ?>
+                            </div>
 
                         <?php endif; ?>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class=" row">
                     <div class="col-12">
                         <?php if ( $mobileImage ): ?>
-                            <?php the_content(); ?>
+                            <div class="the-content">
+                                <?php the_content(); ?>
+                            </div>
 
                         <?php endif; ?>
                     </div>

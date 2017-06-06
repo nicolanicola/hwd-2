@@ -59,7 +59,7 @@
             </div>
             <?php
             $menu = wp_get_nav_menu_items( 'main' );
-            if ( $menu ):?>
+            if ( $menu ): ?>
                 <div class="mobile-menu  hidden-lg-up">
                     <button class="mobile-menu__toggle  js-toggle-mobile-menu">
                         <i class="fa fa-bars  mobile-menu__hamburger" aria-hidden="true"></i>
@@ -80,11 +80,13 @@
                 <div class="desktop-menu  hidden-md-down  col-sm-8">
                     <ul class="desktop-menu__links  clearfix">
                         <?php
-
-
                         foreach ( $menu as $item ) :
                             $pageId = get_post_meta( $item->ID, '_menu_item_object_id', true );
-                            $class = $pageId == $post->ID ? 'active' : ''; ?>
+                            $class = '';
+                            if ( $post ) {
+                                $class = $pageId == $post->ID ? "menu-item-$pageId active" : "menu-item-$pageId ";
+                            }
+                            ?>
 
                             <li class="desktop-menu__list-item  <?php echo $class; ?>">
                                 <a class="desktop-menu__link" href="<?php echo $item->url; ?> ">

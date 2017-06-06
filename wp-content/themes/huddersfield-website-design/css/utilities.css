@@ -25,3 +25,6 @@
 .u-border-bottom {
     border-bottom:1px solid black;
 }
+.u-max-height-500 {
+    max-height: 500px;
+}

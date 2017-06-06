@@ -39,7 +39,7 @@ a:hover, a:focus {
     }
 }
 
-@media (min-width: 767px) and (max-width:991px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .page-content {
         margin-top: 90px;
     }
@@ -98,10 +98,25 @@ input:focus, textarea:focus {
     margin-bottom: 40px;
 }
 
+.the-content p {
+    line-height: 1.8em;
+    font-size: 20px;
+    color: #585858;
+}
+
+.the-content a {
+    color: black;
+}
+
+.the-content strong {
+
+    color: black;
+}
+
 .the-content::after {
     display: block;
     content: '';
-    clear:both;
+    clear: both;
 }
 
 .alignright {

@@ -142,5 +142,9 @@ function validate(data) {
         }, 2000);
     }
 
+    if ($('body').hasClass('single-website')) {
+        $('.menu-item-7').addClass('active');
+    }
+
 
 })(jQuery);
