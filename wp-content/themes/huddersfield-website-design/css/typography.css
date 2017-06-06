@@ -3,3 +3,11 @@
     text-transform: uppercase;
     font-weight: 300;
 }
+
+.title a {
+    text-decoration: none;
+}
+
+.content-title {
+    font-size: 30px;
+}

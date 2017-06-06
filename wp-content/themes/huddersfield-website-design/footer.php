@@ -20,17 +20,19 @@
                 );
                 $faqs       = get_posts( $args ); ?>
                 <div class="faqs-container">
-                    <h2 class="white  title">FAQS</h2>
+                    <h2 class="white  title">
+                        <a class="white" href="<?php the_permalink( 17 ); ?>">FAQS</a></h2>
                     <ul class="faqs-list">
                         <?php foreach ( $faqs as $faq ) : ?>
                             <li class="faqs-list__faq">
-                                <a href="#" class="faqs-list__faq__link">
+                                <a href="<?php the_permalink( 17 ); ?>#<?php uglify( $faq->post_title, 1 ); ?>"
+                                   class="faqs-list__faq__link">
                                     <?php echo $faq->post_title; ?>
                                 </a>
                             </li>
-
                         <?php endforeach ?>
-                        <a href="#" class="button--secondary  button  button--block"> View all</a>
+                        <a href="<?php the_permalink( 17 ); ?>" class="button--secondary  button  button--block"> View
+                            all</a>
                     </ul>
                 </div>
             </div>

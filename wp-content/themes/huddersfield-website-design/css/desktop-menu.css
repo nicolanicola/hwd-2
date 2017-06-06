@@ -13,3 +13,6 @@
     text-transform: uppercase;
     padding: 0 15px;
 }
+.desktop-menu__list-item.active {
+    text-decoration: underline;
+}

@@ -41,7 +41,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .home-get-quote{
+    .home-get-quote {
         background-color: #f1f1f1;
     }
 }
@@ -52,32 +52,21 @@
     }
 }
 
-.home-previous-work {
+.hero-grey {
     padding: 20px 0;
 }
 
 @media (min-width: 992px) {
-    .home-previous-work  {
+    .hero-grey {
         background-color: #dfdfdf;
     }
 }
 
-.home-previous-work__link{
-    border:1px solid #e2e2e2;
-    text-decoration: none;
-    background-color: white;
-    margin-bottom: 40px;
-}
-
-.home-previous-work__link {
-    display: block;
-    text-align: center;
-}
 
 .home-logos__logo {
     list-style: none;
     height: 100px;
-    width:170px;
+    width: 170px;
     margin: 0 20px;
     float: left;
 }

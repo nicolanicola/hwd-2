@@ -45,51 +45,57 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="js-is-mobile"></div>
 
 <header class="site-header">
     <div class="container">
 
         <div class="row">
             <div class="col-6  offset-3  offset-sm-0  col-sm-4">
-                <a href="" class="site-header__logo  block">
+                <a href="/" class="site-header__logo  block">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/huddersfield-web-design-logo.svg"
                          alt="huddersfield webiste design logo">
                 </a>
             </div>
-                <?php
-                $menu = wp_get_nav_menu_items( 'main' );
-                if ( $menu ):?>
-                    <div class="mobile-menu  hidden-lg-up">
-                        <button class="mobile-menu__toggle  js-toggle-mobile-menu">
-                            <i class="fa fa-bars  mobile-menu__hamburger" aria-hidden="true"></i>
-                        </button>
-                        <ul class="js-mobile-menu  mobile-menu__links  <?php if(!is_front_page()) echo 'u-border-bottom-black';?>">
+            <?php
+            $menu = wp_get_nav_menu_items( 'main' );
+            if ( $menu ):?>
+                <div class="mobile-menu  hidden-lg-up">
+                    <button class="mobile-menu__toggle  js-toggle-mobile-menu">
+                        <i class="fa fa-bars  mobile-menu__hamburger" aria-hidden="true"></i>
+                    </button>
+                    <ul class="js-mobile-menu  mobile-menu__links">
+                        <?php
+                        foreach ( $menu as $item ) : ?>
+                            <li class="mobile-menu__list-item">
+                                <a class="mobile-menu__link" href="<?php echo $item->guid; ?> ">
+                                    <?php echo $item->title; ?>
+                                </a>
+                            </li>
                             <?php
-                            foreach ( $menu as $item ) : ?>
-                                <li class="mobile-menu__list-item">
-                                    <a class="mobile-menu__link" href="<?php echo $item->guid; ?> ">
-                                        <?php echo $item->title; ?>
-                                    </a>
-                                </li>
-                                <?php
-                            endforeach; ?>
-                        </ul>
-                    </div>
+                        endforeach; ?>
+                    </ul>
+                </div>
 
-                    <div class="desktop-menu  hidden-md-down  col-sm-8">
-                        <ul class="desktop-menu__links  clearfix">
+                <div class="desktop-menu  hidden-md-down  col-sm-8">
+                    <ul class="desktop-menu__links  clearfix">
+                        <?php
+
+
+                        foreach ( $menu as $item ) :
+                            $pageId = get_post_meta( $item->ID, '_menu_item_object_id', true );
+                            $class = $pageId == $post->ID ? 'active' : ''; ?>
+
+                            <li class="desktop-menu__list-item  <?php echo $class; ?>">
+                                <a class="desktop-menu__link" href="<?php echo $item->url; ?> ">
+                                    <?php echo $item->title; ?>
+                                </a>
+                            </li>
                             <?php
-                            foreach ( $menu as $item ) : ?>
-                                <li class="desktop-menu__list-item">
-                                    <a class="desktop-menu__link" href="<?php echo $item->url; ?> ">
-                                        <?php echo $item->title; ?>
-                                    </a>
-                                </li>
-                                <?php
-                            endforeach; ?>
-                        </ul>
-                    </div>
-                <?php endif; ?>
+                        endforeach; ?>
+                    </ul>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </header>

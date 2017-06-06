@@ -1,0 +1,25 @@
+.form-fields label{
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-fields label {
+    display: block;
+}
+
+.form-fields textarea,
+.form-fields input{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+}
+.form-fields textarea {
+    height: 200px;
+}
+
+.captcha-label {
+    width: 50%;
+    float: left;
+}

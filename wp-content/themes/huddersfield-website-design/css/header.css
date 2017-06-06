@@ -1,7 +1,7 @@
 .site-header {
     /*padding-top: 40px;*/
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     z-index: 1;
     background-color: white;
@@ -11,3 +11,10 @@
 .site-header__logo {
     max-width: 250px;
 }
+
+/*@media (min-width: 992px) {*/
+    .site-header {
+        border-bottom: 1px solid #929292;
+    }
+/*}*/
+

@@ -1,5 +1,6 @@
 .block {
     display: block;
+    width:100%;
 }
 
 .hidden {
@@ -17,4 +18,10 @@
 }
 .u-text-right {
     text-align: right;
+}
+.u-m-bottom-40 {
+    margin-bottom: 40px;
+}
+.u-border-bottom {
+    border-bottom:1px solid black;
 }

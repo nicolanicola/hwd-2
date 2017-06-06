@@ -33,12 +33,26 @@ a:hover, a:focus {
     margin-top: 100px;
 }
 
+@media (max-width: 767px) {
+    .page-content {
+        margin-top: 65px;
+    }
+}
+
+@media (min-width: 767px) and (max-width:991px) {
+    .page-content {
+        margin-top: 90px;
+    }
+}
+
 .u-border-bottom-black {
     border-bottom: 1px solid black;
 }
 
 .button {
     border: 0;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 .button:focus {
@@ -69,4 +83,37 @@ input:focus, textarea:focus {
 
 .button--secondary:hover, .button--secondary:active, .button--secondary:focus {
     color: white;
+}
+
+.page-title {
+    padding-top: 60px;
+}
+
+.page-title--no-m-bottom {
+    margin-bottom: 0;
+}
+
+.the-content {
+    line-height: 1.7em;
+    margin-bottom: 40px;
+}
+
+.the-content::after {
+    display: block;
+    content: '';
+    clear:both;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+}
+
+ul {
+    margin-left: 40px;
 }

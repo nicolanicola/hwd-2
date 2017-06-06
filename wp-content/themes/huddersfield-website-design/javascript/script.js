@@ -3,12 +3,25 @@ const SUBMIT_TEXT = 'GET QUOTE';
 const INVALID_DATA = 'There are errors in the form above';
 
 
+function isMobile($) {
+    return $('.js-is-mobile').css('display') !== 'none';
+}
+
+
 function getTotalMenuHeight($) {
     var height = 20;
     $('.mobile-menu__list-item').each(function (index, item) {
         height += item.offsetHeight;
     })
     return height;
+}
+
+function getHash() {
+    var hash = location.hash;
+    if (hash) {
+        return hash.split('#')[1].split('&')[0]
+    }
+    return false;
 }
 
 function sleepFor(sleepDuration) {
@@ -108,6 +121,26 @@ function validate(data) {
             $('.js-mobile-menu').removeClass('mobile-menu__links--is-active');
         });
     });
+
+    //FAQs page
+    $('.js-show-hide-icon').click(function (e) {
+        var icon = $(e.target);
+        if ($(icon).parent().next().hasClass('hidden')) {
+            $(icon).parent().next().removeClass('hidden');
+            $(icon).html('-')
+        } else {
+            $(icon).parent().next().addClass('hidden');
+            $(icon).html('+')
+        }
+    })
+
+    var hash = getHash();
+    if (hash) {
+        var xPosition = $("#" + hash).offset().top - 200;
+        $('html, body').animate({
+            scrollTop: xPosition
+        }, 2000);
+    }
 
 
 })(jQuery);

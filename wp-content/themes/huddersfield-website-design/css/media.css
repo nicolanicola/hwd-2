@@ -1,4 +1,3 @@
-
 @media (max-width: 567px) {
     .border-top-white-sm {
         border-top: 1px solid white;
@@ -9,4 +8,12 @@
     .border-right-white-md {
         border-right: 1px solid white;
     }
+
 }
+
+@media (min-width: 568px) {
+    .js-is-mobile {
+        display: none;
+    }
+}
+
