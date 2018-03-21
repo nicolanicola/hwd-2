@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * The base configuration for WordPress
  *
@@ -20,16 +23,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'hwd');
+define('DB_NAME', 'huddersf_hwd');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'huddersf_access');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'g4myBUTth01E191');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '10.169.0.169');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
