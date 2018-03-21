@@ -85,6 +85,10 @@ function prefix_add_my_stylesheet() {
 	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css' );
 	wp_enqueue_style( 'css' );
 	
+	wp_register_style( 'fa', 'https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css' );
+	wp_enqueue_style( 'fa' );
+	
+	
 	wp_register_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,700' );
 	wp_enqueue_style( 'lato' );
 	
