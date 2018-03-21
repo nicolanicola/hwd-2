@@ -8,17 +8,20 @@
  */
 
 get_header(); ?>
- <section id="primary" class="fl">
-				<h1><?php
-					printf( __( 'Category Archives: %s', 'starkers' ), '' . single_cat_title( '', false ) . '' );
-				?></h1>
+    <div class="container">
+        <h1 class="page-title"><?php
+			printf( __( 'Category Archives: %s', 'starkers' ), '' . single_cat_title( '', false ) . '' );
+			?></h1>
+        <div class="row">
+            <div class="col-sm-8">
+				
 				<?php
-					$category_description = category_description();
-					if ( ! empty( $category_description ) )
-						echo '' . $category_description . '';
-
 				get_template_part( 'loop', 'category' );
 				?>
- </section>
-<?php get_sidebar(); ?>
+            </div>
+            <div class="col-sm-4">
+				<?php get_sidebar(); ?>
+            </div>
+        </div>
+    </div>
 <?php get_footer(); ?>

@@ -28,3 +28,14 @@
 .u-max-height-500 {
     max-height: 500px;
 }
+
+.tar {
+    text-align: right;
+}
+.tac {
+    text-align: center;
+}
+
+.fr {
+    float: right;
+}

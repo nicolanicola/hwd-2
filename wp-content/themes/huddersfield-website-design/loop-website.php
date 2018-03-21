@@ -61,7 +61,19 @@
 
             <div class="single-website-footer">
                 <div class="single-website-footer__categories">
-                    <?php starkers_posted_in(); ?>
+	                <?php if ( count( get_the_category() ) ) : ?>
+                        <p class="tags-cats">
+			                <?php printf( __( 'Posted in %2$s', 'starkers' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
+                        </p>
+	                <?php endif; ?>
+	                <?php
+	                $tags_list = get_the_tag_list( '', ', ' );
+	                if ( $tags_list ):
+		                ?><p  itemprop="keywords" class="tags-cats">
+		                <?php printf( __( 'Tagged %2$s', 'starkers' ), 'entry-utility-prep entry-utility-prep-tag-links', $tags_list ); ?>
+                        </p>
+	
+	                <?php endif; ?>
                 </div>
                 <div class="u-text-center">
                     <a class="button button--secondary" href="<?php the_permalink( 7 ); ?>">More

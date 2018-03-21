@@ -8,8 +8,12 @@
  */
 
 get_header(); ?>
-
-	<?php get_template_part( 'loop', 'single' ); ?>
-
-<?php get_sidebar(); ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+				<?php get_template_part( 'loop', 'single' ); ?>
+            </div>
+           
+        </div>
+    </div>
 <?php get_footer(); ?>

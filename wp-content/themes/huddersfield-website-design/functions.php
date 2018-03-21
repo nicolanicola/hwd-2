@@ -10,20 +10,47 @@ function uglify( $string, $echo ) {
 	$newString = strtolower( $newString );
 	if ( $echo ) {
 		echo $newString;
-
+		
 	} else {
-
+		
 		return $newString;
 	}
 }
 
+
+function wpe_excerptlength_small( $length ) {
+	return 25;
+}
+
+function wpe_excerptlength_teaser( $length ) {
+	return 45;
+}
+
+function wpe_excerptlength_index( $length ) {
+	return 60;
+}
+
+function wpe_excerptcta( $more ) {
+	return '...<span class="fr cta-btn-small"><span>Read more</span></span>';
+}
+
+function wpe_excerptctalink( $more ) {
+	return " ... <a  href='" . get_permalink() . "' class='fr underline-link'><span>Read more</span></a>";
+}
+
+function wpe_excerptcta_widget( $more ) {
+	global $post;
+	
+	return '...<a href="/testimonials#' . $post->post_name . '" class="button button--secondary"><span>Read more</span></a>';
+}
+
 function get_image_size() {
 	$detect = new Mobile_Detect;
-
+	
 	if ( $detect->isMobile() && ! $detect->isTablet() ) {
 		return 'mobile';
 	}
-
+	
 	return 'large';
 }
 
@@ -32,7 +59,7 @@ function sendContactFormToSiteAdmin() {
 		if ( ! is_email( $_POST['email'] ) ) {
 			throw new Exception( 'Email address not formatted correctly.' );
 		}
-
+		
 		$headers = 'From: HWD Contact Form <nicola@huddersfieldwebsitedesigner.co.uk>';
 		$send_to = "elvin.nicola@gmail.com";
 		$subject = "Message from " . $_POST['name'];
@@ -54,14 +81,14 @@ add_action( "wp_ajax_nopriv_contact_send", "sendContactFormToSiteAdmin" );
 
 
 function prefix_add_my_stylesheet() {
-
+	
 	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css' );
 	wp_enqueue_style( 'css' );
-
+	
 	wp_register_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,700' );
 	wp_enqueue_style( 'lato' );
-
-
+	
+	
 }
 
 function my_scripts_method() {
@@ -82,17 +109,17 @@ function sluggify( $url ) {
 	$url = strip_tags( $url );
 	$url = stripslashes( $url );
 	$url = html_entity_decode( $url );
-
+	
 	# Remove quotes (can't, etc.)
 	$url = str_replace( '\'', '', $url );
-
+	
 	# Replace non-alpha numeric with hyphens
 	$match   = '/[^a-z0-9]+/';
 	$replace = '-';
 	$url     = preg_replace( $match, $replace, $url );
-
+	
 	$url = trim( $url, '-' );
-
+	
 	return $url;
 }
 
@@ -101,6 +128,7 @@ if ( ! function_exists( 'wpex_mce_buttons' ) ) {
 	function wpex_mce_buttons( $buttons ) {
 		array_unshift( $buttons, 'fontselect' ); // Add Font Select
 		array_unshift( $buttons, 'fontsizeselect' ); // Add Font Size Select
+		
 		return $buttons;
 	}
 }
@@ -110,7 +138,7 @@ add_filter( 'mce_buttons_2', 'wpex_mce_buttons' );
 if ( ! function_exists( 'wpex_mce_text_sizes' ) ) {
 	function wpex_mce_text_sizes( $initArray ) {
 		$initArray['fontsize_formats'] = "9px 10px 12px 13px 14px 16px 18px 21px 24px 28px 32px 36px";
-
+		
 		return $initArray;
 	}
 }
@@ -126,9 +154,9 @@ add_filter( 'tiny_mce_before_init', 'wpex_mce_text_sizes' );
  */
 function base_pagination() {
 	global $wp_query;
-
+	
 	$big = 999999999; // This needs to be an unlikely integer
-
+	
 	// For more options and info view the docs for paginate_links()
 	// http://codex.wordpress.org/Function_Reference/paginate_links
 	$paginate_links = paginate_links( array(
@@ -137,7 +165,7 @@ function base_pagination() {
 		'total'    => $wp_query->max_num_pages,
 		'mid_size' => 5
 	) );
-
+	
 	// Display the pagination if more than one page is found
 	if ( $paginate_links ) {
 		echo '<div id="blog-pagination">';
@@ -147,43 +175,42 @@ function base_pagination() {
 }
 
 function wpe_excerptlength_blog( $length ) {
-
+	
 	return 50;
 }
 
-function wpe_excerptcta( $more ) {
-
-	return ' <span class="read-more">Read more... </span>';
-}
-
-function wpe_excerptcta_green( $more ) {
-
-	return '...<span class="fr cta-btn-green">Read more  <i class="icon-circle-arrow-right"></i></span>';
-}
 
 function removeEscpaedQuotes( $string ) {
 	$newString = str_replace( ' /"', '', $string );
-
+	
 	return $newString;
 }
 
 
-function wpe_excerpt( $length_callback = '', $more_callback = '' ) {
 
+function wpe_excerpt( $length_callback = '', $more_callback = '' ) {
+	
 	if ( function_exists( $length_callback ) ) {
 		add_filter( 'excerpt_length', $length_callback );
 	}
-
+	
 	if ( function_exists( $more_callback ) ) {
 		add_filter( 'excerpt_more', $more_callback );
 	}
-
+	
 	$output = get_the_excerpt();
 	$output = apply_filters( 'wptexturize', $output );
 	$output = apply_filters( 'convert_chars', $output );
 	$output = '<p>' . $output . '</p>'; // maybe wpautop( $foo, $br )
 	echo $output;
 }
+
+function custom_post_archive($query) {
+	if ($query->is_archive)
+		$query->set( 'post_type', array('website','faq','services', 'nav_menu_item', 'post') );
+	remove_action( 'pre_get_posts', 'custom_post_archive' );
+}
+add_action('pre_get_posts', 'custom_post_archive');
 
 if ( function_exists( "register_options_page" ) ) {
 

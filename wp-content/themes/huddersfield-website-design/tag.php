@@ -8,14 +8,18 @@
  */
 
 get_header(); ?>
- <section id="primary" class="fl">
-		<h1><?php
-			printf( __( 'Tag Archives: %s', 'starkers' ), '' . single_tag_title( '', false ) . '' );
-		?></h1>
-
-<?php
- get_template_part( 'loop', 'tag' );
-?>
- </section>
-<?php get_sidebar(); ?>
+    <div class="container">
+        <h1 class="page-title">
+			<?php printf( __( 'Tag Archives: %s', 'starkers' ), '' . single_tag_title( '', false ) . '' );
+			?>
+        </h1>
+        <div class="row">
+            <div class="col-sm-8">
+				<?php get_template_part( 'loop', 'tag' ); ?>
+            </div>
+            <div class="col-sm-4">
+				<?php get_sidebar(); ?>
+            </div>
+        </div>
+    </div>
 <?php get_footer(); ?>

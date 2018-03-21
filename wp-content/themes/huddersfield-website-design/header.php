@@ -66,9 +66,9 @@
                     </button>
                     <ul class="js-mobile-menu  mobile-menu__links">
                         <?php
-                        foreach ( $menu as $item ) : ?>
+                        foreach ( $menu as $item ) : //var_dump($item);?>
                             <li class="mobile-menu__list-item">
-                                <a class="mobile-menu__link" href="<?php echo $item->guid; ?> ">
+                                <a class="mobile-menu__link" href="<?php echo $item->url; ?> ">
                                     <?php echo $item->title; ?>
                                 </a>
                             </li>
