@@ -85,20 +85,17 @@
 	<?php endif; ?>
 </div>
 
-<script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36436441-1']);
-    _gaq.push(['_trackPageview']);
-    console.log(_gaq);
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
+    gtag('config', 'UA-36436441-1');
 </script>
+
 <?php
 /* Always have wp_footer() just before the closing </body>
  * tag of your theme, or you will break many plugins, which

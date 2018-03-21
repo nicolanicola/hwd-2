@@ -1,5 +1,5 @@
 wp-config.php
 .gitignore
-.idea/vcs.xml
+.idea
 .htaccess
 
