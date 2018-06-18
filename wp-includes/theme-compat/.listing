@@ -1,0 +1,11 @@
+drwxr-xr-x    2 56482      513                11 Mar 21 22:49 .
+drwxr-xr-x   18 56482      513               188 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513              2112 Mar 21 22:49 comments.php
+-rw-r--r--    1 56482      513               970 Mar 21 22:49 embed-404.php
+-rw-r--r--    1 56482      513              3446 Mar 21 22:49 embed-content.php
+-rw-r--r--    1 56482      513               479 Mar 21 22:49 embed.php
+-rw-r--r--    1 56482      513               438 Mar 21 22:49 footer-embed.php
+-rw-r--r--    1 56482      513              1059 Mar 21 22:49 footer.php
+-rw-r--r--    1 56482      513               704 Mar 21 22:49 header-embed.php
+-rw-r--r--    1 56482      513              1893 Mar 21 22:49 header.php
+-rw-r--r--    1 56482      513              4060 Mar 21 22:49 sidebar.php

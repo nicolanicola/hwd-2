@@ -1,0 +1,6 @@
+drwxr-xr-x    2 56482      513                 6 Mar 21 22:49 .
+drwxr-xr-x    6 56482      513                28 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513              2165 Mar 21 22:49 back-compat.php
+-rw-r--r--    1 56482      513              9431 Mar 21 22:49 custom-header.php
+-rw-r--r--    1 56482      513             21461 Mar 21 22:49 customizer.php
+-rw-r--r--    1 56482      513              8304 Mar 21 22:49 template-tags.php

@@ -1,0 +1,6 @@
+drwxr-xr-x    2 56482      513                 6 Mar 21 22:49 .
+drwxr-xr-x    4 56482      513                 5 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513             15888 Mar 21 22:49 native.php
+-rw-r--r--    1 56482      513              5212 Mar 21 22:49 shell.php
+-rw-r--r--    1 56482      513              8354 Mar 21 22:49 string.php
+-rw-r--r--    1 56482      513              2210 Mar 21 22:49 xdiff.php

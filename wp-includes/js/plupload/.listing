@@ -1,0 +1,11 @@
+drwxr-xr-x    2 56482      513                11 Mar 21 22:49 .
+drwxr-xr-x   12 56482      513               109 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513             16189 Mar 21 22:49 handlers.js
+-rw-r--r--    1 56482      513             10551 Mar 21 22:49 handlers.min.js
+-rw-r--r--    1 56482      513             17987 Mar 21 22:49 license.txt
+-rw-r--r--    1 56482      513            254084 Mar 21 22:49 moxie.js
+-rw-r--r--    1 56482      513             89142 Mar 21 22:49 moxie.min.js
+-rw-r--r--    1 56482      513             60314 Mar 21 22:49 plupload.js
+-rw-r--r--    1 56482      513             15742 Mar 21 22:49 plupload.min.js
+-rw-r--r--    1 56482      513             12726 Mar 21 22:49 wp-plupload.js
+-rw-r--r--    1 56482      513              4920 Mar 21 22:49 wp-plupload.min.js

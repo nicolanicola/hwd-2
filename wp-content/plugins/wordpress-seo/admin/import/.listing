@@ -1,0 +1,7 @@
+drwxr-xr-x    3 56482      513                 7 May 24 14:24 .
+drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
+-rw-r--r--    1 56482      513               731 May 24 14:24 class-import-detector.php
+-rw-r--r--    1 56482      513              1333 May 24 14:24 class-import-plugin.php
+-rw-r--r--    1 56482      513              5389 May 24 14:24 class-import-settings.php
+-rw-r--r--    1 56482      513              2760 May 24 14:24 class-import-status.php
+drwxr-xr-x    2 56482      513                18 May 24 14:24 plugins

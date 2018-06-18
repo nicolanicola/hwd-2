@@ -1,0 +1,10 @@
+drwxr-xr-x    9 56482      513                10 May 24 21:17 .
+drwxr-x---    7 56482      500                31 May 24 14:28 ..
+-rw-r--r--    1 56482      513                28 Mar 21 22:49 index.php
+drwxr-xr-x    4 56482      513                10 Mar 21 22:49 languages
+drwxr-xr-x    2 56482      513                 3 Mar 21 23:16 mu-plugins
+drwxr-xr-x   18 56482      513                20 May 24 14:24 plugins
+drwxr-xr-x    7 56482      513                 8 May 24 10:18 themes
+drwxr-xr-x    2 56482      513                 2 May 24 14:28 upgrade
+drwxr-xr-x   11 56482      513                11 Mar 21 23:16 uploads
+drwxr-xr-x    2 56482      513                 4 Mar 21 22:49 w3tc-config

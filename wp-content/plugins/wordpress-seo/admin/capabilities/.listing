@@ -1,0 +1,10 @@
+drwxr-xr-x    2 56482      513                10 May 24 14:24 .
+drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
+-rw-r--r--    1 56482      513              2265 May 24 14:24 class-abstract-capability-manager.php
+-rw-r--r--    1 56482      513               601 May 24 14:24 class-capability-manager-factory.php
+-rw-r--r--    1 56482      513              3127 May 24 14:24 class-capability-manager-integration.php
+-rw-r--r--    1 56482      513              1966 May 24 14:24 class-capability-manager-vip.php
+-rw-r--r--    1 56482      513              1240 May 24 14:24 class-capability-manager-wp.php
+-rw-r--r--    1 56482      513               812 May 24 14:24 class-capability-manager.php
+-rw-r--r--    1 56482      513              1236 May 24 14:24 class-capability-utils.php
+-rw-r--r--    1 56482      513              1094 May 24 14:24 class-register-capabilities.php

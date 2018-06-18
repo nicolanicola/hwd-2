@@ -1,0 +1,8 @@
+drwxr-xr-x    2 56482      513                 8 May 24 14:24 .
+drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
+-rw-r--r--    1 56482      513              1607 May 24 14:24 dashboard.php
+-rw-r--r--    1 56482      513               393 May 24 14:24 licenses.php
+-rw-r--r--    1 56482      513              3151 May 24 14:24 metas.php
+-rw-r--r--    1 56482      513              5738 May 24 14:24 network.php
+-rw-r--r--    1 56482      513              1283 May 24 14:24 social.php
+-rw-r--r--    1 56482      513              2698 May 24 14:24 tools.php

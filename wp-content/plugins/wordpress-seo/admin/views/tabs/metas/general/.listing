@@ -1,0 +1,6 @@
+drwxr-xr-x    2 56482      513                 6 May 24 14:24 .
+drwxr-xr-x    3 56482      513                10 May 24 14:24 ..
+-rw-r--r--    1 56482      513               648 May 24 14:24 force-rewrite-title.php
+-rw-r--r--    1 56482      513              1824 May 24 14:24 homepage.php
+-rw-r--r--    1 56482      513              1707 May 24 14:24 knowledge-graph.php
+-rw-r--r--    1 56482      513               991 May 24 14:24 title-separator.php

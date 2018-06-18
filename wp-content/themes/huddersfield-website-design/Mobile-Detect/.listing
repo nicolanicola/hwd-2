@@ -1,0 +1,10 @@
+drwxr-xr-x    4 56482      513                10 Mar 21 22:49 .
+drwxr-xr-x    8 56482      513                40 Mar 21 23:41 ..
+-rwxr-xr-x    1 56482      513              2240 Mar 21 22:49 LICENSE.txt
+-rwxr-xr-x    1 56482      513             29230 Mar 21 22:49 Mobile_Detect.json
+-rwxr-xr-x    1 56482      513             81265 Mar 21 22:49 Mobile_Detect.php
+-rwxr-xr-x    1 56482      513             15373 Mar 21 22:49 README.md
+-rwxr-xr-x    1 56482      513               912 Mar 21 22:49 composer.json
+drwxr-xr-x    2 56482      513                 3 Mar 21 22:49 export
+drwxr-xr-x    3 56482      513                 3 Mar 21 22:49 namespaced
+-rwxr-xr-x    1 56482      513              9371 Mar 21 22:49 ruleset.xml

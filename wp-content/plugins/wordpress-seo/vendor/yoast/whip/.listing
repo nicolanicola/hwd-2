@@ -1,0 +1,8 @@
+drwxr-xr-x    5 56482      513                 8 May 24 14:24 .
+drwxr-xr-x    6 56482      513                 6 May 24 14:24 ..
+-rw-r--r--    1 56482      513               969 May 24 14:24 CHANGELOG.md
+-rw-r--r--    1 56482      513              1062 May 24 14:24 LICENSE
+drwxr-xr-x    2 56482      513                 3 May 24 14:24 images
+-rw-r--r--    1 56482      513               301 May 24 14:24 phpunit.xml
+drwxr-xr-x    8 56482      513                17 May 24 14:24 src
+drwxr-xr-x    2 56482      513                 9 May 24 14:24 tests

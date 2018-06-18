@@ -1,0 +1,10 @@
+drwxr-xr-x    2 56482      513                10 May 24 14:24 .
+drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
+-rw-r--r--    1 56482      513              7287 May 24 14:24 class-taxonomy-columns.php
+-rw-r--r--    1 56482      513              2500 May 24 14:24 class-taxonomy-content-fields.php
+-rw-r--r--    1 56482      513              8186 May 24 14:24 class-taxonomy-fields-presenter.php
+-rw-r--r--    1 56482      513              1656 May 24 14:24 class-taxonomy-fields.php
+-rw-r--r--    1 56482      513             11227 May 24 14:24 class-taxonomy-metabox.php
+-rw-r--r--    1 56482      513              3411 May 24 14:24 class-taxonomy-settings-fields.php
+-rw-r--r--    1 56482      513              4831 May 24 14:24 class-taxonomy-social-fields.php
+-rw-r--r--    1 56482      513              9366 May 24 14:24 class-taxonomy.php

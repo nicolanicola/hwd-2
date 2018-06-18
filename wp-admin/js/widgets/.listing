@@ -1,0 +1,16 @@
+drwxr-xr-x    2 56482      513                16 Mar 21 22:49 .
+drwxr-xr-x    3 56482      513                90 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513             15091 Mar 21 22:49 custom-html-widgets.js
+-rw-r--r--    1 56482      513              5578 Mar 21 22:49 custom-html-widgets.min.js
+-rw-r--r--    1 56482      513              3871 Mar 21 22:49 media-audio-widget.js
+-rw-r--r--    1 56482      513              1440 Mar 21 22:49 media-audio-widget.min.js
+-rw-r--r--    1 56482      513              9951 Mar 21 22:49 media-gallery-widget.js
+-rw-r--r--    1 56482      513              3779 Mar 21 22:49 media-gallery-widget.min.js
+-rw-r--r--    1 56482      513              5212 Mar 21 22:49 media-image-widget.js
+-rw-r--r--    1 56482      513              2023 Mar 21 22:49 media-image-widget.min.js
+-rw-r--r--    1 56482      513              6594 Mar 21 22:49 media-video-widget.js
+-rw-r--r--    1 56482      513              2705 Mar 21 22:49 media-video-widget.min.js
+-rw-r--r--    1 56482      513             41846 Mar 21 22:49 media-widgets.js
+-rw-r--r--    1 56482      513             14422 Mar 21 22:49 media-widgets.min.js
+-rw-r--r--    1 56482      513             17766 Mar 21 22:49 text-widgets.js
+-rw-r--r--    1 56482      513              5924 Mar 21 22:49 text-widgets.min.js

@@ -1,0 +1,10 @@
+drwxr-xr-x    4 56482      513                10 Mar 21 22:49 .
+drwxr-xr-x    9 56482      513                10 May 24 21:17 ..
+-rw-r--r--    1 56482      513            335184 Mar 21 22:49 admin-en_GB.mo
+-rw-r--r--    1 56482      513            470179 Mar 21 22:49 admin-en_GB.po
+-rw-r--r--    1 56482      513             45735 Mar 21 22:49 admin-network-en_GB.mo
+-rw-r--r--    1 56482      513             62387 Mar 21 22:49 admin-network-en_GB.po
+-rw-r--r--    1 56482      513            201706 Mar 21 22:49 en_GB.mo
+-rw-r--r--    1 56482      513            352980 Mar 21 22:49 en_GB.po
+drwxr-xr-x    2 56482      513                 4 Mar 21 22:49 plugins
+drwxr-xr-x    2 56482      513                 8 Mar 21 22:49 themes

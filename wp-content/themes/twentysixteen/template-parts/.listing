@@ -1,0 +1,8 @@
+drwxr-xr-x    2 56482      513                 8 Mar 21 22:49 .
+drwxr-xr-x    7 56482      513                25 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513              1166 Mar 21 22:49 biography.php
+-rw-r--r--    1 56482      513              1091 Mar 21 22:49 content-none.php
+-rw-r--r--    1 56482      513              1223 Mar 21 22:49 content-page.php
+-rw-r--r--    1 56482      513              1300 Mar 21 22:49 content-search.php
+-rw-r--r--    1 56482      513              1436 Mar 21 22:49 content-single.php
+-rw-r--r--    1 56482      513              1721 Mar 21 22:49 content.php

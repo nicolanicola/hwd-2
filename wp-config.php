@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * The base configuration for WordPress
  *
@@ -20,13 +23,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'hwd');
+define('DB_NAME', 'hudders0_db');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'hudders0_db');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Fz155Jf~kPur');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -87,3 +90,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+# Disables all core updates. Added by SiteGround Autoupdate:
+define( 'WP_AUTO_UPDATE_CORE', false );

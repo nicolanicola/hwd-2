@@ -1,0 +1,7 @@
+drwxr-xr-x    2 56482      513                 7 Mar 21 22:49 .
+drwxr-xr-x    4 56482      513                 7 Mar 21 22:49 ..
+-rw-r--r--    1 56482      513               702 Mar 21 22:49 class-wp-rest-comment-meta-fields.php
+-rw-r--r--    1 56482      513             13189 Mar 21 22:49 class-wp-rest-meta-fields.php
+-rw-r--r--    1 56482      513              1016 Mar 21 22:49 class-wp-rest-post-meta-fields.php
+-rw-r--r--    1 56482      513              1014 Mar 21 22:49 class-wp-rest-term-meta-fields.php
+-rw-r--r--    1 56482      513               675 Mar 21 22:49 class-wp-rest-user-meta-fields.php

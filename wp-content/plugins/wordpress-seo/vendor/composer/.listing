@@ -1,0 +1,12 @@
+drwxr-xr-x    2 56482      513                12 May 24 14:24 .
+drwxr-xr-x    5 56482      513                 7 May 24 14:24 ..
+-rw-r--r--    1 56482      513             13420 May 24 14:24 ClassLoader.php
+-rw-r--r--    1 56482      513              6245 May 24 14:24 ClassLoader52.php
+-rw-r--r--    1 56482      513              1070 May 24 14:24 LICENSE
+-rw-r--r--    1 56482      513             41986 May 24 14:24 autoload_classmap.php
+-rw-r--r--    1 56482      513               240 May 24 14:24 autoload_files.php
+-rw-r--r--    1 56482      513               225 May 24 14:24 autoload_namespaces.php
+-rw-r--r--    1 56482      513               243 May 24 14:24 autoload_psr4.php
+-rw-r--r--    1 56482      513              2414 May 24 14:24 autoload_real.php
+-rw-r--r--    1 56482      513              1245 May 24 14:24 autoload_real_52.php
+-rw-r--r--    1 56482      513             48601 May 24 14:24 autoload_static.php

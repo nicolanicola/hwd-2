@@ -1,0 +1,8 @@
+drwxr-xr-x    5 56482      513                 8 Mar 21 22:49 .
+drwxr-xr-x   18 56482      513                20 May 24 14:24 ..
+drwxr-xr-x    2 56482      513                 3 Mar 21 22:49 css
+drwxr-xr-x    2 56482      513                 8 Mar 21 22:49 includes
+drwxr-xr-x    2 56482      513                12 Mar 21 22:49 languages
+-rw-r--r--    1 56482      513             18092 Mar 21 22:49 license.txt
+-rwxr-xr-x    1 56482      513              3910 Mar 21 22:49 readme.txt
+-rwxr-xr-x    1 56482      513              6008 Mar 21 22:49 widget-importer-exporter.php

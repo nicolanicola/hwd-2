@@ -1,0 +1,8 @@
+drwxr-xr-x    2 56482      513                 8 May 24 14:24 .
+drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
+-rw-r--r--    1 56482      513              3488 May 24 14:24 class-abstract-role-manager.php
+-rw-r--r--    1 56482      513               614 May 24 14:24 class-register-roles.php
+-rw-r--r--    1 56482      513               545 May 24 14:24 class-role-manager-factory.php
+-rw-r--r--    1 56482      513              1214 May 24 14:24 class-role-manager-vip.php
+-rw-r--r--    1 56482      513              1492 May 24 14:24 class-role-manager-wp.php
+-rw-r--r--    1 56482      513               768 May 24 14:24 class-role-manager.php

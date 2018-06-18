@@ -1,0 +1,13 @@
+drwxr-xr-x    2 56482      513                13 May 24 14:24 .
+drwxr-xr-x   11 56482      513                17 May 24 14:24 ..
+-rw-r--r--    1 56482      513             25089 May 24 14:24 class-breadcrumbs.php
+-rw-r--r--    1 56482      513               923 May 24 14:24 class-frontend-page-type.php
+-rw-r--r--    1 56482      513             55133 May 24 14:24 class-frontend.php
+-rw-r--r--    1 56482      513              6449 May 24 14:24 class-json-ld.php
+-rw-r--r--    1 56482      513             13351 May 24 14:24 class-opengraph-image.php
+-rw-r--r--    1 56482      513             21118 May 24 14:24 class-opengraph.php
+-rw-r--r--    1 56482      513              1865 May 24 14:24 class-primary-category.php
+-rw-r--r--    1 56482      513              2143 May 24 14:24 class-remove-reply-to-com.php
+-rw-r--r--    1 56482      513             15834 May 24 14:24 class-twitter.php
+-rw-r--r--    1 56482      513              1391 May 24 14:24 class-woocommerce-shop-page.php
+-rw-r--r--    1 56482      513                38 May 24 14:24 index.php
