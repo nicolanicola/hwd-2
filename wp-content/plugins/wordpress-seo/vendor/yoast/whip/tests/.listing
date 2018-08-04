@@ -1,9 +1,0 @@
-drwxr-xr-x    2 56482      513                 9 May 24 14:24 .
-drwxr-xr-x    5 56482      513                 8 May 24 14:24 ..
--rw-r--r--    1 56482      513              2080 May 24 14:24 ConfigurationTest.php
--rw-r--r--    1 56482      513              1967 May 24 14:24 MessageDismisserTest.php
--rw-r--r--    1 56482      513               474 May 24 14:24 MessageTest.php
--rw-r--r--    1 56482      513               309 May 24 14:24 MessagesManagerTest.php
--rw-r--r--    1 56482      513              4400 May 24 14:24 RequirementsCheckerTest.php
--rw-r--r--    1 56482      513              2776 May 24 14:24 VersionRequirementTest.php
--rw-r--r--    1 56482      513               150 May 24 14:24 bootstrap.php

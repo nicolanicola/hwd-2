@@ -1,6 +1,0 @@
-drwxr-xr-x    2 56482      513                 6 May 24 14:24 .
-drwxr-xr-x   26 56482      513                84 May 24 14:24 ..
--rw-r--r--    1 56482      513              4047 May 24 14:24 class-indexable-post-provider.php
--rw-r--r--    1 56482      513              3338 May 24 14:24 class-indexable-term-provider.php
--rw-r--r--    1 56482      513              1649 May 24 14:24 class-indexable.php
--rw-r--r--    1 56482      513               613 May 24 14:24 interface-indexable-provider.php

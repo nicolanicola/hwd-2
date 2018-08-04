@@ -2,4 +2,6 @@ wp-config.php
 .gitignore
 .idea
 .htaccess
-
+www
+huddersfieldwebsitedesigner
+php_errorlog
