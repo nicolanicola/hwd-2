@@ -16,11 +16,11 @@
 
         global $page, $paged;
         wp_title( '|', true, 'right' );
-        bloginfo( 'name' );
-        $site_description = get_bloginfo( 'description', 'display' );
-        if ( $site_description && ( is_home() || is_front_page() ) ) {
-            echo " | $site_description";
-        }
+        //bloginfo( 'name' );
+        //$site_description = get_bloginfo( 'description', 'display' );
+//        if ( $site_description && ( is_home() || is_front_page() ) ) {
+//            echo " | $site_description";
+//        }
         ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
