@@ -16,8 +16,7 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					
-					<header>
-						<h2><?php the_title(); ?></h2>
+					<header class="attachment-header">
 
 						<?php
 							printf( __( 'By %2$s', 'starkers' ),
