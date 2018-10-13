@@ -1,9 +1,0 @@
-drwxr-xr-x    7 56482      513                 9 Mar 21 23:16 .
-drwxr-xr-x   18 56482      513                20 May 24 14:24 ..
-drwxr-xr-x    3 56482      513                 3 Mar 21 23:16 asset
-drwxr-xr-x    2 56482      513                14 Mar 21 23:16 class
-drwxr-xr-x    3 56482      513                 4 Mar 21 23:16 compatibility
-drwxr-xr-x    2 56482      513                 4 Mar 21 23:16 languages
--rw-r--r--    1 56482      513             17382 Mar 21 23:16 readme.txt
-drwxr-xr-x    4 56482      513                12 Mar 21 23:16 template
--rw-r--r--    1 56482      513              3189 Mar 21 23:16 wp-migrate-db.php

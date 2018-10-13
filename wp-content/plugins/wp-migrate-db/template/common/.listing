@@ -1,8 +1,0 @@
-drwxr-xr-x    2 56482      513                 8 Mar 21 23:16 .
-drwxr-xr-x    4 56482      513                12 Mar 21 23:16 ..
--rw-r--r--    1 56482      513               474 Mar 21 23:16 breadcrumbs.php
--rw-r--r--    1 56482      513               706 Mar 21 23:16 checkbox.php
--rw-r--r--    1 56482      513              3340 Mar 21 23:16 compatibility.php
--rw-r--r--    1 56482      513               530 Mar 21 23:16 debug-info.php
--rw-r--r--    1 56482      513               937 Mar 21 23:16 max-request-size.php
--rw-r--r--    1 56482      513               382 Mar 21 23:16 muplugin-failed-update-warning.php
