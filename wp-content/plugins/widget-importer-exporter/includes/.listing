@@ -1,8 +1,0 @@
-drwxr-xr-x    2 56482      513                 8 Mar 21 22:49 .
-drwxr-xr-x    5 56482      513                 8 Mar 21 22:49 ..
--rw-r--r--    1 56482      513              2828 Mar 21 22:49 admin.php
--rwxr-xr-x    1 56482      513              4123 Mar 21 22:49 export.php
--rwxr-xr-x    1 56482      513             12010 Mar 21 22:49 import.php
--rw-r--r--    1 56482      513              2050 Mar 21 22:49 mime-types.php
--rwxr-xr-x    1 56482      513              5697 Mar 21 22:49 page.php
--rwxr-xr-x    1 56482      513              1184 Mar 21 22:49 widgets.php
