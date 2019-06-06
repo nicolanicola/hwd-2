@@ -32,3 +32,14 @@
 .contain-form-container--small-hero .contact-form__success-message {
     color:black;
 }
+
+#wpcf7-f771-p13-o1 input{
+    max-width: 100%;
+}
+
+#wpcf7-f771-p13-o1 {
+    max-width: 800px;
+}
+#wpcf7-f771-p13-o1  textarea {
+    border-color: #dfdfdf;
+}
