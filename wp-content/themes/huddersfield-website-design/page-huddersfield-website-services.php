@@ -39,7 +39,7 @@ get_header(); ?>
                 wp_reset_postdata(); ?>
             </div>
             <div class="u-text-center  u-m-bottom-40">
-                <a href="<?php the_permalink( 648 ); ?>" class="button button--secondary">Get in touch</a>
+                <a href="/contact" class="button button--secondary">Get in touch</a>
             </div>
         </div>
 
