@@ -62,6 +62,8 @@ function sendContactFormToSiteAdmin() {
 		
 		$headers = 'From: HWD Contact Form <nicola@huddersfieldwebsitedesigner.co.uk>';
 		$send_to = "nicola@huddersfieldwebsitedesigner.co.uk";
+		$headers = 'From:'. $_POST['email']. "\r\n" .
+    				'Reply-To: ' .  $_POST['email'] . "\r\n";
 		$subject = "Message from " . $_POST['name'];
 		$message = "Message from " . $_POST['name'] . ": \n\n " . $_POST['message'] . " \n\n Reply to: " . $_POST['email'];
 		if ( wp_mail( $send_to, $subject, $message, $headers ) ) {

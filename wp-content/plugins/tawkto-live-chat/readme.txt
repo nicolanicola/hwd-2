@@ -2,8 +2,8 @@
 Contributors: tawkto
 Tags: tawk,tawk.to,tawkto,chat,free chat,livechat,chat widget,plugin,chat for web,chat online,chat software,free live chat,IM Chat,,live chat,live support,live web chat,online chat,online support,snapengage,wordpress chat,wordpress live chat
 Requires at least: 2.7
-Tested up to: 5.1.1
-Stable tag: 0.3.6
+Tested up to: 5.2.2
+Stable tag: 0.4.1
 
 (OFFICIAL tawk.to plugin) Instantly chat with  visitors on your website with the free tawk.to chat widget.
 Website: [http://tawk.to](http://tawk.to)
@@ -98,36 +98,36 @@ Note: You will need a free tawk.to account : [Create one for free here!](https:/
 * Added the ability to include a specific url slug
 * modified plugin settings page interface
 
-= 0.2.5 = 
+= 0.2.5 =
 * Fixed include url warning message thrown
 
-= 0.2.6 = 
+= 0.2.6 =
 * wrapped all hard-coded text in plugin settings with gettext functions
 
-= 0.2.7 = 
+= 0.2.7 =
 * added woocommerce support
 
-= 0.2.8 = 
-* added updated plugin admin interface 
+= 0.2.8 =
+* added updated plugin admin interface
 
-= 0.2.9 = 
-* fixed issue with assets folder 
+= 0.2.9 =
+* fixed issue with assets folder
 
-= 0.3.0 = 
+= 0.3.0 =
 * fixed issues with visibility filters
 
-= 0.3.0 = 
+= 0.3.0 =
 * fixed issues with visibility filters
 
-= 0.3.1 = 
+= 0.3.1 =
 * plugin notifications update
 * logged in user recognition
   If user is logged in, the widget will fill the pre-chat form automatically
- 
- = 0.3.2 = 
+
+= 0.3.2 =
 * fixed issues on widget settings on fresh install
 
- = 0.3.3 = 
+= 0.3.3 =
 * fixed user recognition vulnerability
 * updated admin page texts
 * moved wp_footer hook to last item
@@ -141,7 +141,19 @@ Note: You will need a free tawk.to account : [Create one for free here!](https:/
 = 0.3.6 =
 * supported version bump 5.1
 
-## Frequently Asked Questions 
+= 0.3.7 =
+* supported version bump 5.2.1
+
+= 0.3.8 =
+* supported version bump 5.2.2
+
+= 0.4.0 =
+* Added support for wildcard url match for include URL and exclude URL
+
+= 0.4.1 =
+* Fixed plugin version mismatch in readme and plugin file
+
+## Frequently Asked Questions
 
 = How much does this cost? =
 

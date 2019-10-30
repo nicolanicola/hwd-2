@@ -2,7 +2,6 @@ const SENDING_TEXT = 'SENDING...';
 const SUBMIT_TEXT = 'GET QUOTE';
 const INVALID_DATA = 'There are errors in the form above';
 
-
 function isMobile($) {
     return $('.js-is-mobile').css('display') !== 'none';
 }
@@ -46,6 +45,7 @@ function toggleSending($) {
 function handleSubmit(e, $, data) {
     e.preventDefault(); // Prevent the default form submit
     var validatedData = validate(data);
+	gtag_report_conversion();
     if (validatedData.valid) {
         $('.contact-form__error-message').addClass('hidden');
         $('.contact-form__error').addClass('hidden');

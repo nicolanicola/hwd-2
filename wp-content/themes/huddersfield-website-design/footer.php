@@ -86,16 +86,6 @@
 </div>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-36436441-1');
-</script>
-
 <?php
 /* Always have wp_footer() just before the closing </body>
  * tag of your theme, or you will break many plugins, which

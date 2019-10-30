@@ -22,3 +22,31 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[06-Jul-2019 09:48:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[06-Jul-2019 11:05:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[06-Jul-2019 12:48:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[15-Jul-2019 04:37:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[16-Jul-2019 02:30:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[01-Oct-2019 01:53:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[03-Oct-2019 15:59:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/hudders0/public_html/wp-content/themes/twentysixteen/404.php on line 10

@@ -12,6 +12,7 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0088/7360.js" async="async"></script>
     <title><?php
 
         global $page, $paged;
@@ -38,6 +39,34 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-36436441-1');
+	
+	//adwords
+	gtag('config', 'AW-997084885');
+	
+	<!-- Event snippet for contact form conversion page
+
+	function gtag_report_conversion(url) {
+	  var callback = function () {
+		if (typeof(url) != 'undefined') {
+		  window.location = url;
+		}
+	  };
+	  gtag('event', 'conversion', {
+		  'send_to': 'AW-997084885/z7kGCJKv-KoBENWdudsD',
+		  'event_callback': callback
+	  });
+	  return false;
+	}
 </script>
 
     <?php
