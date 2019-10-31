@@ -1,0 +1,36 @@
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.service__title {
+
+  text-align: center;
+}
+
+.service__content a {
+  color: #78af23;
+}
+
+.service__title__icon {
+  margin-right: 20px;
+}
+
+.service__content {
+  margin-top: 30px;
+  @media (min-width: 767px) {
+    padding-bottom: 20px;
+  }
+  border-bottom: 1px solid #e0e0e0;
+
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+}

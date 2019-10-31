@@ -68,21 +68,21 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="container-fluid  hidden-md-down">
-            <h2 class="u-text-center">Satisfied Customers</h2>
-            <div class="home-logos">
-				<?php $logos = get_field( 'logos' ); ?>
-				<?php $key = 0; ?>
-                <ul class="clearfix">
-					<?php foreach ( $logos as $logo ): ?>
-                        <li class="home-logos__logo">
-                            <img class="home-logos__image  img-fluid" src="<?php echo $logo['url']; ?>"
-                                 title="<?php echo $logo['title']; ?>" alt="<?php echo $logo['title']; ?>">
-                        </li>
-					<?php endforeach; ?>
-                </ul>
-            </div>
-        </div>
+<!--        <div class="container-fluid  hidden-md-down">-->
+<!--            <h2 class="u-text-center">Satisfied Customers</h2>-->
+<!--            <div class="home-logos">-->
+<!--				--><?php //$logos = get_field( 'logos' ); ?>
+<!--				--><?php //$key = 0; ?>
+<!--                <ul class="clearfix">-->
+<!--					--><?php //foreach ( $logos as $logo ): ?>
+<!--                        <li class="home-logos__logo">-->
+<!--                            <img class="home-logos__image  img-fluid" src="--><?php //echo $logo['url']; ?><!--"-->
+<!--                                 title="--><?php //echo $logo['title']; ?><!--" alt="--><?php //echo $logo['title']; ?><!--">-->
+<!--                        </li>-->
+<!--					--><?php //endforeach; ?>
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
 	
 	<?php endwhile;
 } ?>

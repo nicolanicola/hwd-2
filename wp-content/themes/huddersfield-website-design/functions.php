@@ -1,6 +1,6 @@
 <?php
-ini_set( 'display_errors', 1 );
-error_reporting( E_ALL );
+//ini_set( 'display_errors', 1 );
+//error_reporting( E_ALL );
 
 require_once 'Mobile-Detect/Mobile_Detect.php';
 
@@ -83,21 +83,15 @@ add_action( "wp_ajax_nopriv_contact_send", "sendContactFormToSiteAdmin" );
 
 
 function prefix_add_my_stylesheet() {
-	
-	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css' );
+
+
+	wp_register_style( 'css', get_stylesheet_directory_uri() . '/styles/scss/style.css' );
 	wp_enqueue_style( 'css' );
-	
-//	wp_register_style( 'fa', 'https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css' );
-//	wp_enqueue_style( 'fa' );
-	
-	
-	wp_register_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,700' );
-	wp_enqueue_style( 'lato' );
-	
 	
 }
 
 function my_scripts_method() {
+
 	wp_register_script( 'myscript', get_stylesheet_directory_uri() . '/javascript/script.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'myscript' );
 }

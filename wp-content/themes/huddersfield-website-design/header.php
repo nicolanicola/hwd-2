@@ -12,7 +12,6 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
-    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0088/7360.js" async="async"></script>
     <title><?php
 
         global $page, $paged;
@@ -23,23 +22,14 @@
 //            echo " | $site_description";
 //        }
         ?></title>
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
     <script src="<?php bloginfo( 'template_directory' ); ?>/javascript/modernizr-1.6.min.js"></script>
 
-<!-- Hotjar Tracking Code for https://huddersfieldwebsitedesigner.co.uk/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1327476,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
@@ -53,7 +43,7 @@
 	//adwords
 	gtag('config', 'AW-997084885');
 	
-	<!-- Event snippet for contact form conversion page
+	<!-- Event snippet for contact form conversion page -->
 
 	function gtag_report_conversion(url) {
 	  var callback = function () {
