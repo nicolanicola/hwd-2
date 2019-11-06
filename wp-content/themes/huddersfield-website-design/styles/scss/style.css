@@ -2120,3 +2120,10 @@ p {
 .single-website-footer__categories {
   font-size: 12px;
   margin-bottom: 40px; }
+
+.faq-h1 {
+  color: black;
+  margin-bottom: -4px; }
+
+.faq-article p {
+  line-height: 2em; }
