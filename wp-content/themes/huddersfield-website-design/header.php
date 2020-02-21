@@ -11,6 +11,14 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NQCPNFL');</script>
+<!-- End Google Tag Manager -->
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
     <title><?php
 
@@ -30,34 +38,51 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
     <script src="<?php bloginfo( 'template_directory' ); ?>/javascript/modernizr-1.6.min.js"></script>
 
-	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-36436441-1');
-	
-	//adwords
+  gtag('config', 'UA-36436441-1');
 	gtag('config', 'AW-997084885');
-	
-	<!-- Event snippet for contact form conversion page -->
-
-	function gtag_report_conversion(url) {
-	  var callback = function () {
-		if (typeof(url) != 'undefined') {
-		  window.location = url;
-		}
-	  };
-	  gtag('event', 'conversion', {
-		  'send_to': 'AW-997084885/z7kGCJKv-KoBENWdudsD',
-		  'event_callback': callback
-	  });
-	  return false;
-	}
 </script>
+	
+	<!-- Event snippet for contact form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-997084885/z7kGCJKv-KoBENWdudsD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+	
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '175742287061961');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=175742287061961&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
     <?php
     /* We add some JavaScript to pages with the comment form
@@ -77,6 +102,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQCPNFL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="js-is-mobile"></div>
 
 <header class="site-header">

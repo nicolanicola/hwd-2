@@ -1,0 +1,5 @@
+[10-Nov-2019 13:50:41 UTC] PHP Warning:  strpos(): Empty needle in /home2/oosjicmy/public_html/wp-includes/functions.php on line 4360
+[10-Nov-2019 13:50:41 UTC] PHP Warning:  strpos(): Empty needle in /home2/oosjicmy/public_html/wp-includes/functions.php on line 4360
+[10-Nov-2019 13:50:42 UTC] mojo_plugin_activated
+[01-Feb-2020 01:34:01 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home2/oosjicmy/public_html/wp-includes/class-wp-query.php on line 2197
+[01-Feb-2020 01:34:01 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home2/oosjicmy/public_html/wp-includes/canonical.php on line 217
