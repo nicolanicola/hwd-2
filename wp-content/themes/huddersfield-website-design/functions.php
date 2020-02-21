@@ -216,3 +216,16 @@ if ( function_exists( "register_options_page" ) ) {
 
 
 }
+
+add_action( 'wp_footer', 'mycustom_wp_footer' );
+ 
+function mycustom_wp_footer() {
+?>
+<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+	gtag_report_conversion();
+    
+}, false );
+</script>
+<?php
+}

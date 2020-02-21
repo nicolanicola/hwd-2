@@ -1,4 +1,4 @@
-<form action="/" method="post" class="contact-form">
+<form action="/" method="post" class="contact-form" onsubmit="sendTracking()">
     <div class="relative">
         <input type="text"
                name="name"
@@ -41,4 +41,8 @@
 
 <script>
     var adminUrl = '<?php echo admin_url( "admin-ajax.php" ) ?>';
+	function sendTracking (){
+		gtag_report_conversion()
+		return true;
+	}
 </script>
