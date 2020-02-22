@@ -68,7 +68,7 @@
                     <ul class="footer-menu-list">
 						<?php foreach ( $col as $menuItem ): ?>
                             <li class="footer-menu-list__item">
-                                <a class="" href="<?php echo $menuItem->url; ?> ">
+                                <a class="" href="<?php echo $menuItem->url; ?>">
 									<?php echo $menuItem->title; ?>
                                 </a>
                             </li>
