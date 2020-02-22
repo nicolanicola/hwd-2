@@ -129,7 +129,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <?php
                         foreach ( $menu as $item ) : //var_dump($item);?>
                             <li class="mobile-menu__list-item">
-                                <a class="mobile-menu__link" href="<?php echo $item->url; ?> ">
+                                <a class="mobile-menu__link" href="<?php echo $item->url; ?>">
                                     <?php echo $item->title; ?>
                                 </a>
                             </li>
@@ -150,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             ?>
 
                             <li class="desktop-menu__list-item  <?php echo $class; ?>">
-                                <a class="desktop-menu__link" href="<?php echo $item->url; ?> ">
+                                <a class="desktop-menu__link" href="<?php echo $item->url; ?>">
                                     <?php echo $item->title; ?>
                                 </a>
                             </li>

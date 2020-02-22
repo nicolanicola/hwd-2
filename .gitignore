@@ -8,3 +8,6 @@ php_errorlog
 .DS_Store
 theonetree
 wp-cli.yml
+wp-content/cache/*
+wp-content/uploads/WP-STATIC-*
+wp-content/uploads/WP2STATIC*
