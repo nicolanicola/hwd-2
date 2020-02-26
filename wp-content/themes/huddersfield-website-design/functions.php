@@ -108,7 +108,7 @@ function my_scripts_method() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 add_action( 'wp_enqueue_scripts', 'prefix_add_my_stylesheet' );
 add_image_size( 'mobile', 767, 9999 );
-add_image_size( 'mobile-new', 1000, 561 , true);
+add_image_size( 'mobile-new', 500, 300 , true);
 add_image_size( 'team-member', 146, 146 );
 
 

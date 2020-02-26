@@ -4430,7 +4430,8 @@ p {
   font-weight: 300; }
 
 .service__title {
-  text-align: center; }
+  font-size: 20px !important;
+  font-weight: bolder; }
 
 .service__content a {
   color: #78af23; }
@@ -4620,7 +4621,7 @@ p {
   margin-bottom: 1rem; }
 
 .logo-design__image {
-  max-width: 400px;
+  max-width: 100%;
   padding: 2rem; }
 
 img {
