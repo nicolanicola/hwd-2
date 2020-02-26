@@ -7,7 +7,7 @@
     <h1 class="website-page-header__subtitle">
         <?php the_title(); ?>
     </h1>
-    <a title="Visit <?php the_field('website_url') ?>" href="//<?php the_field('website_url') ?>" target="_blank" class="website-page-header__link">
+    <a title="Visit <?php the_field('website_url') ?>" href="http://<?php the_field('website_url') ?>" target="_blank" class="website-page-header__link">
         <i class="fas fa fa-laptop"></i>
         <?php the_field('website_url') ?>
     </a>
