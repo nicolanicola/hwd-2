@@ -9,10 +9,14 @@
 
 get_header(); ?>
 
-    <div class="container">
 
 
-        <?php get_template_part( 'loop', 'website' ); ?>
-    </div>
+        <?php if (get_the_time('Y') < '2020') {
+            get_template_part( 'loop', 'website' );
+
+        } else {
+            require 'jamm.php';
+        } ?>
+
 
 <?php get_footer(); ?>

@@ -36,7 +36,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
-    <script src="<?php bloginfo( 'template_directory' ); ?>/javascript/modernizr-1.6.min.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36436441-1"></script>
@@ -121,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <?php
             $menu = wp_get_nav_menu_items( 'main' );
             if ( $menu ): ?>
-                <div class="mobile-menu  hidden-lg-up">
+                <div class="mobile-menu  d-lg-none">
                     <button class="mobile-menu__toggle  js-toggle-mobile-menu">
                         <i class="fa fa-bars  mobile-menu__hamburger" aria-hidden="true"></i>
                     </button>
@@ -138,8 +137,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </div>
 
-                <div class="desktop-menu  hidden-md-down  col-sm-8">
-                    <ul class="desktop-menu__links  clearfix">
+                <div class="desktop-menu  d-none d-lg-block  col-sm-8">
+                    <ul class="desktop-menu__links  clearfix d-flex">
                         <?php
                         foreach ( $menu as $item ) :
                             $pageId = get_post_meta( $item->ID, '_menu_item_object_id', true );

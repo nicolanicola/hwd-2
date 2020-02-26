@@ -1,0 +1,49 @@
+.button {
+    border: 0;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    display: inline-block;
+}
+.underline-link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.button:focus {
+    outline: 0;
+}
+
+.button--primary {
+    background-color: #9ee430;
+    font-weight: bold;
+}
+
+.button--block {
+    display: block;
+    width: 100%;
+}
+
+.button--secondary {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+
+}
+
+.button--secondary:hover, .button--secondary:active, .button--secondary:focus {
+    color: white;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.btn--green {
+    background-color: $green;
+    font-weight: bold;
+}
+

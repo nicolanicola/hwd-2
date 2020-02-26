@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-
 <?php if (have_posts()) {
     while (have_posts()) : the_post(); ?>
 
@@ -28,7 +27,7 @@ get_header(); ?>
                 <?php the_content(); ?>
             </article>
 
-            <?php if ($post->ID !== 13): ?>
+            <?php if ($post->ID !== 13 && $post->ID !== 928): ?>
                 <div class="u-text-center  u-m-bottom-40">
                     <a class="button button--secondary" href="<?php the_permalink(7); ?>">Get In touch</a>
                 </div>

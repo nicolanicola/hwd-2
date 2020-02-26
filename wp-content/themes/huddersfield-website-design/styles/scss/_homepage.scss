@@ -1,0 +1,99 @@
+.home-hero {
+    background-color: #3f3c3c;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    overflow: hidden;
+    @media (min-width: 992px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.home-hero__image {
+    height: 300px;
+}
+
+.home-hero__text {
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    color: white;
+    @media (min-width: 992px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.home-hero__text--mobile {
+    background-color: #dfdfdf;
+    color: inherit;
+}
+
+.home-checkboxes__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @media (max-width: 767px) {
+        padding: 2rem 0;
+    }
+}
+
+.home-checkboxes__list-item {
+    margin-right: 20px;
+    line-height: 2rem;
+    @media (max-width: 767px) {
+        float: none !important;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+}
+
+.home-checkboxes__tick {
+    color: #9ee430;
+    margin-right: 10px;
+}
+
+.home-get-quote__content {
+    padding: 30px 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home-get-quote {
+        background-color: #f1f1f1;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-get-quote {
+        background-color: #3f3b3b;
+    }
+    .home-get-quote__title {
+        color: white;
+    }
+}
+
+.hero-grey {
+    padding: 40px 0;
+}
+
+@media (min-width: 992px) {
+    .hero-grey {
+        background-color: #dfdfdf;
+    }
+}
+
+
+.home-logos__logo {
+    list-style: none;
+    height: 100px;
+    width: 170px;
+    margin: 0 20px;
+    float: left;
+}
