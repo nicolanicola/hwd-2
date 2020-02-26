@@ -9,3 +9,4 @@ php_errorlog
 wp-content/cache/*
 wp-content/uploads/WP-STATIC-*
 wp-content/uploads/WP2STATIC*
+wp-content/themes/huddersfield-website-design/node_modules
