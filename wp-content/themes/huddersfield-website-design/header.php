@@ -130,8 +130,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div class="js-is-mobile"></div>
-
-<header class="site-header">
+<?php $template = get_post_meta( $post->ID, '_wp_page_template', true );?>
+<header class="site-header site-header--<?php echo $template;?>">
     <div class="container position-relative">
 
         <div class="row">

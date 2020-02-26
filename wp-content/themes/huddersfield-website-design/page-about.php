@@ -10,6 +10,7 @@
 get_header(); ?>
 <?php if (have_posts()) {
     while (have_posts()) : the_post(); ?>
+
         <?php if (get_the_post_thumbnail_url()): ?>
             <div class="featured-image u-m-bottom-40"
                  style="background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat; background-size: cover">
@@ -19,6 +20,7 @@ get_header(); ?>
             </div>
         <?php endif; ?>
         <div class="container">
+
             <?php if (!get_the_post_thumbnail_url()): ?>
                 <h1 class="page-title"><?php the_title(); ?></h1>
             <?php endif; ?>
@@ -35,5 +37,10 @@ get_header(); ?>
 
     <?php endwhile;
 } ?>
-
+<div class="hero-grey">
+    <div class="container">
+        <?php include 'inc/previous-work.php'; ?>
+    </div>
+    <?php the_field('previous_work_title'); ?>
+</div>
 <?php get_footer(); ?>

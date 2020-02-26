@@ -4146,7 +4146,8 @@ ul {
   margin-top: 0; }
   @media (max-width: 767px) {
     .featured-image__title {
-      font-size: 30px; } }
+      font-size: 30px;
+      line-height: 3rem; } }
 
 .page-footer {
   background-color: #3f3c3c; }
@@ -4268,7 +4269,7 @@ a:hover, a:focus {
 
 @media (max-width: 767px) {
   .page-content {
-    margin-top: 65px; } }
+    margin-top: 100px; } }
 
 @media (min-width: 767px) and (max-width: 991px) {
   .page-content {
@@ -4341,7 +4342,7 @@ p {
 
 .home-hero {
   background-color: #3f3c3c;
-  padding-top: 140px;
+  padding-top: 60px;
   padding-bottom: 10px;
   overflow: hidden; }
   @media (min-width: 992px) {
@@ -4351,7 +4352,7 @@ p {
       padding-top: 40px; } }
 
 .home-hero__image {
-  height: 300px; }
+  height: 230px; }
   @media (min-width: 992px) {
     .home-hero__image {
       height: 300px; } }
@@ -4664,7 +4665,7 @@ p {
 
 .website-page__services__icon {
   margin-right: 0.5rem;
-  min-width: 20px; }
+  min-width: 10px; }
 
 .content-header {
   font-weight: 600;

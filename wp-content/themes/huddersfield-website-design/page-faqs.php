@@ -47,6 +47,13 @@ the_post(); ?>
         } ?>
     </section>
 
+
+</div>
+<div class="hero-grey">
+    <div class="container">
+        <?php include 'inc/previous-work.php'; ?>
+    </div>
+    <?php the_field('previous_work_title'); ?>
 </div>
 
 <?php get_footer(); ?>
