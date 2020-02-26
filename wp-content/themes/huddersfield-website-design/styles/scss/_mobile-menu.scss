@@ -35,7 +35,14 @@
 
 .mobile-menu__link {
     display: block;
-    padding:5px 7px;
+    padding:10px 7px;
+    font-size: 1.1rem;
     text-decoration: none;
     text-align: center;
+    &:hover {
+        background-color: grey;
+        text-decoration: none;
+        color:white;
+    }
+
 }

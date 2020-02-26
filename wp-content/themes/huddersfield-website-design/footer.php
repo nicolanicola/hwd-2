@@ -76,9 +76,30 @@
                     </ul>
                 </div>
 			<?php endforeach; ?>
+            <div class="col-12 col-sm-4  col-md-3 text-center">
+                <div class="footer-social__container clearfix ">
+                    <div class="footer-social footer-social--phone-number mr-3">
+                        Tel: <a href="tel:07792443572" target="_blank">
+                            07792 443572
+                        </a>
+                        <a class="footer-social footer-social--facebook" href="https://www.facebook.com/huddersfieldwebsitedesign/" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </div>
 
+                </div>
+            </div>
+            <div class="col-12 col-sm-4  col-md-3">
+                <a href="/" class="site-header__logo  block m-auto">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/huddersfield-web-design-logo.svg"
+                         alt="huddersfield webiste design logo">
+                </a>
+            </div>
         </div>
+
 	<?php endif; ?>
+
+
 </div>
 
 

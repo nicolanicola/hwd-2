@@ -3,10 +3,10 @@
   max-width: 100%; }
 
 #wpcf7-f771-p13-o1 {
-  max-width: 600px; }
+  max-width: 500px; }
 
 #wpcf7-f771-p13-o1 textarea {
-  border-color: #dfdfdf; }
+  border-color: #9ee32f; }
 
 .blog-footer {
   font-size: 13px;
@@ -4056,7 +4056,7 @@ ul {
 .contact-form textarea, .contact-form input {
   padding: 10px;
   width: 100%;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #9ee32f;
   margin-bottom: 10px; }
 
 .contact-form__error {
@@ -4097,6 +4097,42 @@ ul {
 
 .desktop-menu__list-item.active {
   text-decoration: underline; }
+
+.desktop-menu__social-link a {
+  text-decoration: none !important; }
+
+.header-social {
+  color: grey;
+  float: left; }
+  .header-social a {
+    text-decoration: none !important;
+    color: grey; }
+
+.header-social--phone-number {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.header-social--facebook {
+  margin-right: 0.5rem; }
+  .header-social--facebook:before {
+    content: " | ";
+    margin-right: 0.5rem;
+    display: inline-block; }
+  .header-social--facebook i {
+    font-size: 1.1rem;
+    color: #4266b2; }
+    .header-social--facebook i:hover {
+      color: #34518d; }
+
+.header-social__container {
+  padding: 0.5rem; }
+  @media (min-width: 992px) {
+    .header-social__container {
+      padding: 0;
+      position: absolute;
+      top: 0;
+      right: 0; } }
 
 .featured-image {
   position: relative;
@@ -4174,6 +4210,11 @@ blockquote:before {
 blockquote p {
   display: inline; }
 
+.footer-social--facebook i {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  color: #4266b2; }
+
 .form-fields label {
   display: block;
   width: 100%;
@@ -4198,7 +4239,7 @@ blockquote p {
   float: left; }
 
 body {
-  font-family: Tahoma, arial, sans-serif;
+  font-family: Biryani, arial, sans-serif;
   color: #201f1f;
   line-height: 1.8em;
   font-size: 16px; }
@@ -4300,16 +4341,20 @@ p {
 
 .home-hero {
   background-color: #3f3c3c;
-  padding-top: 40px;
+  padding-top: 140px;
   padding-bottom: 10px;
   overflow: hidden; }
   @media (min-width: 992px) {
     .home-hero {
       padding-left: 0;
-      padding-right: 0; } }
+      padding-right: 0;
+      padding-top: 40px; } }
 
 .home-hero__image {
   height: 300px; }
+  @media (min-width: 992px) {
+    .home-hero__image {
+      height: 300px; } }
 
 .home-hero__text {
   font-weight: 300;
@@ -4420,9 +4465,14 @@ p {
 
 .mobile-menu__link {
   display: block;
-  padding: 5px 7px;
+  padding: 10px 7px;
+  font-size: 1.1rem;
   text-decoration: none;
   text-align: center; }
+  .mobile-menu__link:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white; }
 
 .title {
   font-size: 24px;

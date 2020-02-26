@@ -1,18 +1,73 @@
 .desktop-menu__links {
-    list-style: none;
-    margin-top: 40px;
-    padding:0;
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
 }
 
 .desktop-menu__list-item {
-    float: left;
+  float: left;
 }
 
 .desktop-menu__link {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 15px;
 }
+
 .desktop-menu__list-item.active {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.desktop-menu__social-link {
+  a {
+    text-decoration: none !important;
+  }
+
+}
+
+.header-social {
+  color: grey;
+  float: left;
+
+  a {
+    text-decoration: none !important;
+    color: grey;
+  }
+
+}
+
+.header-social--phone-number {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.header-social--facebook {
+  margin-right: 0.5rem;
+
+  &:before {
+    content: " | ";
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
+
+  i {
+    font-size: 1.1rem;
+    color: #4266b2;
+
+    &:hover {
+      color: darken(#4266b2, 10)
+    }
+  }
+}
+
+.header-social__container {
+    padding: 0.5rem;
+  @media (min-width: 992px) {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
 }
