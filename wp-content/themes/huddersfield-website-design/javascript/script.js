@@ -99,6 +99,10 @@ function validate(data) {
         errors: errors
     }
 }
+function sendTracking (){
+    gtag_report_conversion()
+    return true;
+}
 
 
 (function ($) {
@@ -108,8 +112,12 @@ function validate(data) {
         }
     })
     $('.contact-form').submit(function (e) {
-        handleSubmit(e, $, $(this).serializeArray())
-    }) //pass array of formfields
+        sendTracking();
+        return true;
+        //handleSubmit(e, $, $(this).serializeArray())
+    })
+
+    //pass array of formfields
 
     $(".js-toggle-mobile-menu").toggle(function () {
         var heightOfMenu = getTotalMenuHeight($);

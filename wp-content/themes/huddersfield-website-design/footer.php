@@ -76,11 +76,7 @@
                     </ul>
                 </div>
 			<?php endforeach; ?>
-            <div class="col-md-6  u-text-center">
-                <a target="_blank" class="block  u-m-top-20" href="http://my.tsohost.com/aff.php?aff=1873">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsohost-logo.jpg"/>
-                </a>
-            </div>
+
         </div>
 	<?php endif; ?>
 </div>

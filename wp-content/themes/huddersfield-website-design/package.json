@@ -1,0 +1,15 @@
+{
+  "name": "huddersfield-website-design",
+  "version": "1.0.0",
+  "description": "Starkers HTML5 ==============",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch ./styles/scss/ -o ./css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1"
+  }
+}

@@ -78,19 +78,27 @@ function sendContactFormToSiteAdmin() {
 	}
 }
 
-add_action( "wp_ajax_contact_send", "sendContactFormToSiteAdmin" );
-add_action( "wp_ajax_nopriv_contact_send", "sendContactFormToSiteAdmin" );
-
+//add_action( "wp_ajax_contact_send", "sendContactFormToSiteAdmin" );
+//add_action( "wp_ajax_nopriv_contact_send", "sendContactFormToSiteAdmin" );
+//
 
 function prefix_add_my_stylesheet() {
 
 
-	wp_register_style( 'css', get_stylesheet_directory_uri() . '/styles/scss/style.css' );
+	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css' );
 	wp_enqueue_style( 'css' );
-	
+
+
+
+    wp_register_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap' );
+    wp_enqueue_style( 'google-fonts' );
+
 }
 
 function my_scripts_method() {
+
+    wp_register_script( 'font-awesome', 'https://kit.fontawesome.com/e6a6466522.js', array(  ), '1.0.0', true );
+    wp_enqueue_script( 'font-awesome' );
 
 	wp_register_script( 'myscript', get_stylesheet_directory_uri() . '/javascript/script.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'myscript' );
@@ -100,6 +108,7 @@ function my_scripts_method() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 add_action( 'wp_enqueue_scripts', 'prefix_add_my_stylesheet' );
 add_image_size( 'mobile', 767, 9999 );
+add_image_size( 'mobile-new', 1000, 561 , true);
 add_image_size( 'team-member', 146, 146 );
 
 

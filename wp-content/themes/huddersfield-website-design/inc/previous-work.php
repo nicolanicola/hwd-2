@@ -14,7 +14,7 @@
             <div class="col-md-4  website-thumbnail__item">
                 <a class="website-thumbnail__link" href="<?php the_permalink(); ?>">
                     <?php $image = get_field( 'thumbnail' ); ?>
-                    <img class="img-fluid" src="<?php echo $image['url']; ?>"
+                    <img class="img-fluid" src="<?php echo $image['sizes']['mobile-new']; ?>"
                          alt="<?php echo $image['alt']; ?>">
                     <h4 class="website-thumbnail__title  website-thumbnail__title--border"><?php the_title(); ?></h4>
                     <h5 class="website-thumbnail__subtitle">
