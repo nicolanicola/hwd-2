@@ -28,7 +28,9 @@ get_header(); ?>
             foreach ($posts as $post): setup_postdata($post); ?>
                 <div class=" service">
                     <h3 class="content-title  service__title">
-                        <i class="service__title__icon  <?php the_field('font_awesome_icon'); ?>"></i> <?php the_title(); ?>
+<!--                        <i class="service__title__icon  --><?php //the_field('font_awesome_icon'); ?><!--"></i> -->
+
+                        <?php the_title(); ?>
                     </h3>
                     <div class="service__content">
                         <?php the_content(); ?>

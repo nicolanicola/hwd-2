@@ -24,7 +24,7 @@ get_header(); ?>
                 );
                 $posts      = get_posts( $args );
                 foreach ( $posts as $post ): setup_postdata( $post ); ?>
-                    <div class="col-md-4  col-sm-6  col-10    website-thumbnail__item">
+                    <div class="col-md-4  col-sm-6     website-thumbnail__item">
                         <a class="website-thumbnail__link  website-thumbnail__link--background " href="<?php the_permalink(); ?>">
                             <?php $image = get_field( 'thumbnail' ); ?>
                             <img class="img-fluid" src="<?php echo $image['sizes']['mobile-new']; ?>" title="<?php echo $image['title']; ?>" alt="<?php echo $image['alt']; ?>">
