@@ -1,0 +1,4 @@
+.site-header {position: fixed;top: 0;width: 100%;z-index: 1;background-color: white;}
+.site-header__logo {max-width: 250px;}
+.site-header {border-bottom: 1px solid #929292;}
+.attachment-header a {line-height: 20px;}

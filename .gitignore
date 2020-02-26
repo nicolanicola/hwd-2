@@ -7,6 +7,4 @@ huddersfieldwebsitedesigner
 php_errorlog
 .DS_Store
 wp-content/cache/*
-wp-content/uploads/WP-STATIC-*
-wp-content/uploads/WP2STATIC*
 wp-content/themes/huddersfield-website-design/node_modules
