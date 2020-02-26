@@ -9,6 +9,5 @@ php_errorlog
 theonetree
 wp-cli.yml
 wp-content/cache/*
-wp-content/uploads/WP-STATIC-*
-wp-content/uploads/WP2STATIC*
 wp-content/themes/huddersfield-website-design/node_modules
+wp-content/uploads/wp-static-html-output*
