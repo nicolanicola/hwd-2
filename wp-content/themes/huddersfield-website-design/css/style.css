@@ -4326,7 +4326,8 @@ p {
   background-color: white; }
 
 .site-header__logo {
-  max-width: 250px; }
+  max-width: 250px;
+  padding: 15px; }
 
 /*@media (min-width: 992px) {*/
 .site-header {
@@ -4694,7 +4695,11 @@ figcaption {
 
 .faq-h1 {
   color: black;
-  margin-bottom: -4px; }
+  margin-bottom: 15px;
+  font-size: 1.3rem; }
 
-.faq-article p {
-  line-height: 2em; }
+.faq-article {
+  padding: 30px 0;
+  border-bottom: 1px solid #f1f1f1; }
+  .faq-article p {
+    line-height: 2em; }

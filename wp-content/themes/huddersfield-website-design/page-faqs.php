@@ -28,9 +28,9 @@ the_post(); ?>
             $query = new WP_Query($args);
             while ($query->have_posts()) : $query->the_post(); ?>
 
-                <article id="<?php uglify(get_the_title(), 1); ?>" class="faq-article  js-show-hide  ">
-                    <h2 class="faq-h1"><?php the_title(); ?> <span class="js-show-hide-icon">-</span></h2>
-                    <div class="post-content js-show-hide-content"><?php the_content(); ?></div>
+                <article id="<?php uglify(get_the_title(), 1); ?>" class="faq-article  js-show-hide">
+                    <h2 class="faq-h1"><?php the_title(); ?> <span class="js-show-hide-icon">+</span></h2>
+                    <div class="post-content js-show-hide-content hidden"><?php the_content(); ?></div>
                 </article>
             <?php endwhile;
             wp_reset_postdata(); ?>
