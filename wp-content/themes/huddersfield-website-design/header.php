@@ -192,8 +192,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                             </a>
                         </div>
                         <div class="header-social header-social--facebook">
-                            <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
-
+                            <?php include "inc/facebook-like.php"; ?>
                         </div>
 
                     </div>
@@ -236,8 +235,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <?php endif; ?>
             <div class="header-social__container  d-none d-lg-block clearfix">
                 <div class="header-social header-social--facebook">
-                    <!-- Your like button code -->
-                    <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
+                    <?php include "inc/facebook-like.php"; ?>
                 </div>
 
                 <div class="header-social header-social--phone-number">
