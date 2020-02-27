@@ -15,9 +15,7 @@
   height: 230px;
   @media (min-width: 992px) {
     height: 300px;
-
   }
-
 }
 
 .home-hero__text {
@@ -57,6 +55,7 @@
     float: none !important;
     margin-left: 20px;
     text-align: left;
+    line-height: 3rem;
   }
 
 }
@@ -94,7 +93,6 @@
     background-color: #dfdfdf;
   }
 }
-
 
 .home-logos__logo {
   list-style: none;

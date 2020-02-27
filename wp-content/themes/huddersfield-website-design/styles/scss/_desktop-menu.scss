@@ -40,15 +40,14 @@
   font-size: 0.9rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  padding-top: 7px;
 }
 
 .header-social--facebook {
   margin-right: 0.5rem;
 
   &:before {
-    content: " | ";
-    margin-right: 0.5rem;
-    display: inline-block;
+
   }
 
   i {
