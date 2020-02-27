@@ -4696,7 +4696,8 @@ figcaption {
 .faq-h1 {
   color: black;
   margin-bottom: 15px;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  cursor: pointer; }
 
 .faq-article {
   padding: 30px 0;
