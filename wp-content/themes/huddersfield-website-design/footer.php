@@ -78,17 +78,17 @@
 			<?php endforeach; ?>
             <div class="col-12 col-sm-4  col-md-3 text-center">
                 <div class="footer-social__container clearfix ">
+                        <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
                     <div class="footer-social footer-social--phone-number mr-3">
                         Tel: <a href="tel:07792443572" target="_blank">
                             07792 443572
                         </a>
-                        <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
 
                     </div>
 
                 </div>
             </div>
-            <div class="col-12 col-sm-4  col-md-3">
+            <div class="col-12 col-sm-4  col-md-3 d-none d-lg-block">
                 <a href="/" class="site-header__logo  block m-auto">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/huddersfield-web-design-logo.svg"
                          alt="huddersfield webiste design logo">

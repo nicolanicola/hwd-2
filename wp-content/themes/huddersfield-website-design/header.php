@@ -134,8 +134,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"></script>
-
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
 <script>
     window.fbAsyncInit = function () {
         FB.init({
@@ -173,7 +172,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     <div class="container-lg position-relative">
 
         <div class="row">
-            <div class="col-6  offset-3  offset-sm-0  col-sm-4">
+            <div class="col-7  offset-2  offset-sm-0  col-sm-4">
                 <a href="/" class="site-header__logo  block">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/huddersfield-web-design-logo.svg"
                          alt="huddersfield webiste design logo">

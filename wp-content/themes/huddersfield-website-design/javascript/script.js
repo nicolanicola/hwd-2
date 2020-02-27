@@ -131,20 +131,20 @@ function sendTracking (){
     });
 
     //FAQs page
-    $('.js-show-hide-icon').click(function (e) {
-        var icon = $(e.target);
-        if ($(icon).parent().next().hasClass('hidden')) {
-            $(icon).parent().next().removeClass('hidden');
-            $(icon).html('-')
+    $('.js-show-hide h2').click(function (e) {
+        var element = $(e.target).parent();
+        if ($(element).find('.js-show-hide-content').hasClass('hidden')) {
+            $(element).find('.js-show-hide-content').removeClass('hidden');
+            $(element).find('.js-show-hide-icon').html('-')
         } else {
-            $(icon).parent().next().addClass('hidden');
-            $(icon).html('+')
+            $(element).find('.js-show-hide-content').addClass('hidden');
+            $(element).find('.js-show-hide-icon').html('+')
         }
     })
 
     var hash = getHash();
     if (hash) {
-        var xPosition = $("#" + hash).offset().top - 200;
+        var xPosition = $("#" + hash).offset().top - 180;
         $('html, body').animate({
             scrollTop: xPosition
         }, 2000);
