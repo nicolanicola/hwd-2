@@ -85,7 +85,7 @@ function sendContactFormToSiteAdmin() {
 function prefix_add_my_stylesheet() {
 
 
-	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css' );
+	wp_register_style( 'css', get_stylesheet_directory_uri() . '/css/style.css', [], 1.1 );
 	wp_enqueue_style( 'css' );
 
 
