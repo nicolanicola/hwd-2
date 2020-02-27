@@ -37,7 +37,7 @@ get_header(); ?>
 			<?php the_field( 'hero_text' ); ?>
         </div>
         </div>
-        <section class="home-checkboxes  container-fluid  u-text-center py-3 py-md-5">
+        <section class="home-checkboxes  container-fluid text-lg-center py-3 py-md-5">
             <ul class="home-checkboxes__list  clearfix  inline-block  ">
 				<?php $tickboxes = get_field( 'tickboxes' ); ?>
 				<?php foreach ( $tickboxes as $tickbox ): ?>

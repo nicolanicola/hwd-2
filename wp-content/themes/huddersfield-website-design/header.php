@@ -41,6 +41,14 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="https://huddersfieldwebsitedesigner.co.uk"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Huddersfield Website Design"/>
+    <meta property="og:description"
+          content="I'm a freelance web developer & website designer in Holmfirth near Huddersfield, West Yorkshire. I design low cost, professional websites nationwide from just £700."/>
+    <meta property="og:image" content="https://huddersfieldwebsitedesigner.co.uk/wp-content/themes/huddersfield-website-design/images/huddersfield-web-design-logo.svg"/>
+
+
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
@@ -123,20 +131,24 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 </head>
 
 <body <?php body_class(); ?>>
+
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"></script>
+
 <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
         FB.init({
-            xfbml            : true,
-            version          : 'v6.0'
+            xfbml: true,
+            version: 'v6.0'
         });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
@@ -156,9 +168,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div class="js-is-mobile"></div>
-<?php $template = get_post_meta( $post->ID, '_wp_page_template', true );?>
-<header class="site-header site-header--<?php echo $template;?>">
-    <div class="container position-relative">
+<?php $template = get_post_meta($post->ID, '_wp_page_template', true); ?>
+<header class="site-header site-header--<?php echo $template; ?>">
+    <div class="container-lg position-relative">
 
         <div class="row">
             <div class="col-6  offset-3  offset-sm-0  col-sm-4">
@@ -181,9 +193,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                             </a>
                         </div>
                         <div class="header-social header-social--facebook">
-                            <a href="https://www.facebook.com/huddersfieldwebsitedesign/" target="_blank">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
+                            <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
+
                         </div>
 
                     </div>
@@ -220,24 +231,21 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                             </li>
                         <?php
                         endforeach; ?>
-
                     </ul>
-
                 </div>
 
             <?php endif; ?>
             <div class="header-social__container  d-none d-lg-block clearfix">
+                <div class="header-social header-social--facebook">
+                    <!-- Your like button code -->
+                    <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
+                </div>
+
                 <div class="header-social header-social--phone-number">
                     Tel: <a href="tel:07792443572" target="_blank">
                         07792 443572
                     </a>
                 </div>
-                <div class="header-social header-social--facebook">
-                    <a href="https://www.facebook.com/huddersfieldwebsitedesign/" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </div>
-
             </div>
         </div>
     </div>

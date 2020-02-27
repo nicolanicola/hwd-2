@@ -4,6 +4,9 @@
   background-color: white;
   margin-bottom: 40px;
   padding: 2px;
+  @media (max-width: 767px) {
+    background-color: $light-grey;
+  }
 
   &:hover {
     padding: 0;

@@ -4111,14 +4111,11 @@ ul {
 .header-social--phone-number {
   font-size: 0.9rem;
   margin-left: 0.5rem;
-  margin-right: 0.5rem; }
+  margin-right: 0.5rem;
+  padding-top: 7px; }
 
 .header-social--facebook {
   margin-right: 0.5rem; }
-  .header-social--facebook:before {
-    content: " | ";
-    margin-right: 0.5rem;
-    display: inline-block; }
   .header-social--facebook i {
     font-size: 1.1rem;
     color: #4266b2; }
@@ -4157,12 +4154,11 @@ ul {
 
 .faqs-list__faq {
   line-height: 25px;
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
 
 .faqs-list__faq__link {
-  color: white;
+  color: silver;
   text-decoration: none;
-  font-size: 18px;
   font-weight: 300; }
 
 .faqs-container {
@@ -4391,7 +4387,8 @@ p {
     .home-checkboxes__list-item {
       float: none !important;
       margin-left: 20px;
-      text-align: left; } }
+      text-align: left;
+      line-height: 3rem; } }
 
 .home-checkboxes__tick {
   color: #9ee430;
@@ -4599,6 +4596,9 @@ p {
   background-color: white;
   margin-bottom: 40px;
   padding: 2px; }
+  @media (max-width: 767px) {
+    .website-thumbnail__link {
+      background-color: #f1f1f1; } }
   .website-thumbnail__link:hover {
     padding: 0;
     border: 2px solid silver;

@@ -82,9 +82,8 @@
                         Tel: <a href="tel:07792443572" target="_blank">
                             07792 443572
                         </a>
-                        <a class="footer-social footer-social--facebook" href="https://www.facebook.com/huddersfieldwebsitedesign/" target="_blank">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
+                        <div class="fb-like" data-href="https://huddersfieldwebsitedesigner.co.uk" data-width="300" data-layout="button_count" data-action="like" data-size="small"></div>
+
                     </div>
 
                 </div>
