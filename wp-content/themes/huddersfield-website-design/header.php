@@ -131,6 +131,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 </head>
 
 <body <?php body_class(); ?>>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQCPNFL"
