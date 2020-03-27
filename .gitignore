@@ -1,5 +1,4 @@
 wp-config.php
-.gitignore
 .idea
 .htaccess
 www
@@ -11,3 +10,4 @@ wp-cli.yml
 wp-content/cache/*
 wp-content/themes/huddersfield-website-design/node_modules
 wp-content/uploads/wp-static-html-output*
+error_log
