@@ -4323,10 +4323,11 @@ p {
   top: 0;
   width: 100%;
   z-index: 1;
+  padding: 10px;
   background-color: white; }
 
 .site-header__logo {
-  max-width: 250px;
+  max-width: 200px;
   padding: 5px; }
 
 /*@media (min-width: 992px) {*/

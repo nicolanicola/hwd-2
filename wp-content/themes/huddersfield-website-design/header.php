@@ -41,11 +41,11 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url" content="https://huddersfieldwebsitedesigner.co.uk"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Huddersfield Website Design"/>
-    <meta property="og:description"
-          content="I'm a freelance web developer & website designer in Holmfirth near Huddersfield, West Yorkshire. I design low cost, professional websites nationwide from just £700."/>
+<!--    <meta property="og:url" content="https://huddersfieldwebsitedesigner.co.uk"/>-->
+<!--    <meta property="og:type" content="website"/>-->
+<!--    <meta property="og:title" content="Huddersfield Website Design"/>-->
+<!--    <meta property="og:description"-->
+<!--          content="I'm a freelance web developer & website designer in Holmfirth near Huddersfield, West Yorkshire. I design low cost, professional websites nationwide from just £700."/>-->
     <meta property="og:image" content="https://huddersfieldwebsitedesigner.co.uk/wp-content/themes/huddersfield-website-design/images/huddersfield-web-design-logo.svg"/>
 
 
