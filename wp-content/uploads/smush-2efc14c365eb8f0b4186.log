@@ -1,0 +1,136 @@
+[2020-08-13 14:35:38 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:52 : INFO] - 
+ 
+[2020-08-13 14:40:52 : INFO] - Header for logs at time:  Thu, 13 Aug 2020 14:40:52 +0000 on https://hwd.test 
+[2020-08-13 14:40:52 : INFO] - WP: 5.3.2 
+[2020-08-13 14:40:52 : INFO] - PHP: 7.1.32 (fpm-fcgi, Darwin Nicolas-MBP 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) 
+[2020-08-13 14:40:52 : INFO] - MySQL: 5.7.27 
+[2020-08-13 14:40:52 : INFO] - WPLANG: en_US 
+[2020-08-13 14:40:52 : INFO] - Server: nginx/1.17.3 
+[2020-08-13 14:40:52 : INFO] - Outbound connections: N 
+[2020-08-13 14:40:52 : INFO] - safe_mode: 0 
+[2020-08-13 14:40:52 : INFO] - max_execution_time: 300 
+[2020-08-13 14:40:52 : INFO] - memory_limit: 2G (used: 5.7M | 2M) 
+[2020-08-13 14:40:52 : INFO] - multisite: N 
+[2020-08-13 14:40:52 : INFO] - openssl: OpenSSL 1.1.1c  28 May 2019 
+[2020-08-13 14:40:52 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2020-08-13 14:40:52 : INFO] - Set semaphore last lock (smush) time to 2020-08-13 14:40:52 
+[2020-08-13 14:40:52 : INFO] - Semaphore lock (smush) complete 
+[2020-08-13 14:40:52 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2020-08-13 14:40:52 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:52 : INFO] - 95 
+[2020-08-13 14:40:52 : INFO] - Backing up the original image - 2020/08/logo-01-updraft-pre-smush-original.png 
+[2020-08-13 14:40:52 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:52 : INFO] - 95 
+[2020-08-13 14:40:53 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:53 : INFO] - 95 
+[2020-08-13 14:40:55 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:55 : INFO] - 95 
+[2020-08-13 14:40:55 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:55 : INFO] - 95 
+[2020-08-13 14:40:57 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:40:57 : INFO] - 95 
+[2020-08-13 14:41:00 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:41:00 : INFO] - 95 
+[2020-08-13 14:41:01 : INFO] - Re_Smush_It_Task with attachment ID : 991, autocreated on : August 13, 2020 02:35:38 
+[2020-08-13 14:41:01 : INFO] - 95 
+[2020-08-13 14:41:01 : INFO] - Successfully optimized the image - /Users/nicolawight/Huddersfield Website Design/website/wp-content/uploads/2020/08/logo-01.png.The file was compressed from 115.71 KB to 115.71 KB saving 0 percent using WP-Optimize 
+[2020-08-13 14:41:01 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2020-08-13 14:41:01 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-08-13 14:41:01 : INFO] - Semaphore (smush) unlocked 
+[2020-08-13 14:41:01 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2020-08-13 14:41:01 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-08-13 14:41:01 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2020-08-13 14:44:08 : INFO] - Re_Smush_It_Task with attachment ID : 992, autocreated on : August 13, 2020 02:44:08 
+[2020-08-13 14:45:26 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:48:18 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:49:10 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:50:52 : INFO] - 
+ 
+[2020-08-13 14:50:52 : INFO] - Header for logs at time:  Thu, 13 Aug 2020 14:50:52 +0000 on https://hwd.test 
+[2020-08-13 14:50:52 : INFO] - WP: 5.3.2 
+[2020-08-13 14:50:52 : INFO] - PHP: 7.1.32 (fpm-fcgi, Darwin Nicolas-MBP 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) 
+[2020-08-13 14:50:52 : INFO] - MySQL: 5.7.27 
+[2020-08-13 14:50:52 : INFO] - WPLANG: en_US 
+[2020-08-13 14:50:52 : INFO] - Server: nginx/1.17.3 
+[2020-08-13 14:50:52 : INFO] - Outbound connections: N 
+[2020-08-13 14:50:52 : INFO] - safe_mode: 0 
+[2020-08-13 14:50:52 : INFO] - max_execution_time: 300 
+[2020-08-13 14:50:52 : INFO] - memory_limit: 2G (used: 5.7M | 4M) 
+[2020-08-13 14:50:52 : INFO] - multisite: N 
+[2020-08-13 14:50:52 : INFO] - openssl: OpenSSL 1.1.1c  28 May 2019 
+[2020-08-13 14:50:52 : INFO] - A total of 4 tasks of type smush found and will be processed in this iteration 
+[2020-08-13 14:50:52 : INFO] - Set semaphore last lock (smush) time to 2020-08-13 14:50:52 
+[2020-08-13 14:50:52 : INFO] - Semaphore lock (smush) complete 
+[2020-08-13 14:50:52 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2020-08-13 14:50:52 : INFO] - Task with ID 2 and type (smush) failed with error code exceeded_max_filesize - /Users/nicolawight/Huddersfield Website Design/website/wp-content/uploads/2020/08/screencapture-jacobsjuniors-co-uk-2020-08-13-15_43_00.png - cannot be optimized, file size is above service provider limit 
+[2020-08-13 14:50:52 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2020-08-13 14:50:52 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:52 : INFO] - 95 
+[2020-08-13 14:50:53 : INFO] - Backing up the original image - 2020/02/screencapture-jacobsjuniors-co-uk-2020-08-13-15_43_00-updraft-pre-smush-original.png 
+[2020-08-13 14:50:53 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:53 : INFO] - 95 
+[2020-08-13 14:50:54 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:54 : INFO] - 95 
+[2020-08-13 14:50:55 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:55 : INFO] - 95 
+[2020-08-13 14:50:56 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:56 : INFO] - 95 
+[2020-08-13 14:50:57 : INFO] - Re_Smush_It_Task with attachment ID : 993, autocreated on : August 13, 2020 02:45:26 
+[2020-08-13 14:50:57 : INFO] - 95 
+[2020-08-13 14:50:57 : INFO] - Successfully optimized the image - /Users/nicolawight/Huddersfield Website Design/website/wp-content/uploads/2020/02/screencapture-jacobsjuniors-co-uk-2020-08-13-15_43_00.png.The file was compressed from 190.21 KB to 190.21 KB saving 0 percent using WP-Optimize 
+[2020-08-13 14:50:57 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2020-08-13 14:50:57 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2020-08-13 14:50:57 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:57 : INFO] - 95 
+[2020-08-13 14:50:58 : INFO] - Backing up the original image - 2020/08/youth-640094_1920-1200x800-1-updraft-pre-smush-original.jpg 
+[2020-08-13 14:50:58 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:58 : INFO] - 95 
+[2020-08-13 14:50:58 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:58 : INFO] - 95 
+[2020-08-13 14:50:59 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:59 : INFO] - 95 
+[2020-08-13 14:50:59 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:59 : INFO] - 95 
+[2020-08-13 14:50:59 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:50:59 : INFO] - 95 
+[2020-08-13 14:51:00 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:51:00 : INFO] - 95 
+[2020-08-13 14:51:00 : INFO] - Re_Smush_It_Task with attachment ID : 994, autocreated on : August 13, 2020 02:48:18 
+[2020-08-13 14:51:00 : INFO] - 95 
+[2020-08-13 14:51:01 : INFO] - Successfully optimized the image - /Users/nicolawight/Huddersfield Website Design/website/wp-content/uploads/2020/08/youth-640094_1920-1200x800-1.jpg.The file was compressed from 137.25 KB to 137.25 KB saving 0 percent using WP-Optimize 
+[2020-08-13 14:51:01 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2020-08-13 14:51:01 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2020-08-13 14:51:01 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:51:01 : INFO] - 95 
+[2020-08-13 14:51:01 : INFO] - Backing up the original image - 2020/08/youth-640094_1920-1200x800-2-updraft-pre-smush-original.jpg 
+[2020-08-13 14:51:01 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:51:01 : INFO] - 95 
+[2020-08-13 14:51:02 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:51:02 : INFO] - 95 
+[2020-08-13 14:51:02 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:51:02 : INFO] - 95 
+[2020-08-13 14:51:02 : INFO] - Re_Smush_It_Task with attachment ID : 995, autocreated on : August 13, 2020 02:49:10 
+[2020-08-13 14:51:02 : INFO] - 95 
+[2020-08-13 14:51:03 : INFO] - Successfully optimized the image - /Users/nicolawight/Huddersfield Website Design/website/wp-content/uploads/2020/08/youth-640094_1920-1200x800-2.jpg.The file was compressed from 73.37 KB to 73.37 KB saving 0 percent using WP-Optimize 
+[2020-08-13 14:51:03 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2020-08-13 14:51:03 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-08-13 14:51:03 : INFO] - Semaphore (smush) unlocked 
+[2020-08-13 14:51:03 : INFO] - Successfully processed the queue (smush). 4 tasks were processed out of 4. 
+[2020-08-13 14:51:03 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-08-13 14:51:03 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2020-08-13 15:00:53 : INFO] - 
+ 
+[2020-08-13 15:00:53 : INFO] - Header for logs at time:  Thu, 13 Aug 2020 15:00:53 +0000 on https://hwd.test 
+[2020-08-13 15:00:53 : INFO] - WP: 5.3.2 
+[2020-08-13 15:00:53 : INFO] - PHP: 7.1.32 (fpm-fcgi, Darwin Nicolas-MBP 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) 
+[2020-08-13 15:00:53 : INFO] - MySQL: 5.7.27 
+[2020-08-13 15:00:53 : INFO] - WPLANG: en_US 
+[2020-08-13 15:00:53 : INFO] - Server: nginx/1.17.3 
+[2020-08-13 15:00:53 : INFO] - Outbound connections: N 
+[2020-08-13 15:00:53 : INFO] - safe_mode: 0 
+[2020-08-13 15:00:53 : INFO] - max_execution_time: 300 
+[2020-08-13 15:00:53 : INFO] - memory_limit: 2G (used: 5.7M | 6M) 
+[2020-08-13 15:00:53 : INFO] - multisite: N 
+[2020-08-13 15:00:53 : INFO] - openssl: OpenSSL 1.1.1c  28 May 2019 
+[2020-08-13 15:00:53 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
