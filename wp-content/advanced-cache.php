@@ -2,7 +2,7 @@
 
 if (!defined('ABSPATH')) die('No direct access allowed');
 
-// WP-Optimize advanced-cache.php (written by version: 3.0.16) (do not change this line, it is used for correctness checks)
+// WP-Optimize advanced-cache.php (written by version: 3.1.2) (do not change this line, it is used for correctness checks)
 
 if (!defined('WPO_ADVANCED_CACHE')) define('WPO_ADVANCED_CACHE', true);
 
@@ -12,7 +12,7 @@ $possible_plugin_locations = array(
 	defined('WP_PLUGIN_DIR') ? WP_PLUGIN_DIR.'/wp-optimize/cache' : false,
 	defined('WP_CONTENT_DIR') ? WP_CONTENT_DIR.'/plugins/wp-optimize/cache' : false,
 	dirname(__FILE__).'/plugins/wp-optimize/cache',
-	'/home2/oosjicmy/public_html/wp-content/plugins/wp-optimize/cache',
+	'/Users/nicolawight/Huddersfield Website Design/website/wp-content/plugins/wp-optimize/cache',
 );
 
 $plugin_location = false;
@@ -30,12 +30,16 @@ if (!defined('WPO_CACHE_FILES_DIR')) define('WPO_CACHE_FILES_DIR', WP_CONTENT_DI
 if (false !== $plugin_location) {
 	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', $plugin_location.'/extensions');
 } else {
-	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', '/home2/oosjicmy/public_html/wp-content/plugins/wp-optimize/cache/extensions');
+	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', '/Users/nicolawight/Huddersfield Website Design/website/wp-content/plugins/wp-optimize/cache/extensions');
 }
 
-if (!@file_exists(WPO_CACHE_CONFIG_DIR . '/config-huddersfieldwebsitedesigner.co.uk.php')) { return; }
+if (!@file_exists(WPO_CACHE_CONFIG_DIR . '/config-hwd.test.php')) { return; }
 
-$GLOBALS['wpo_cache_config'] = json_decode(file_get_contents(WPO_CACHE_CONFIG_DIR . '/config-huddersfieldwebsitedesigner.co.uk.php'), true);
+$GLOBALS['wpo_cache_config'] = @json_decode(file_get_contents(WPO_CACHE_CONFIG_DIR . '/config-hwd.test.php'), true);
+
+if (empty($GLOBALS['wpo_cache_config'])) {
+	include_once(WPO_CACHE_CONFIG_DIR . '/config-hwd.test.php');
+}
 
 if (empty($GLOBALS['wpo_cache_config']) || empty($GLOBALS['wpo_cache_config']['enable_page_caching'])) { return; }
 
