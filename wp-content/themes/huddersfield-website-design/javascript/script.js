@@ -117,18 +117,18 @@ function sendTracking (){
         //handleSubmit(e, $, $(this).serializeArray())
     })
 
-    //pass array of formfields
+    $(".js-toggle-mobile-menu").click(function() {
+        if($(".js-mobile-menu").hasClass('mobile-menu__links--is-active')) {
+            $('.js-mobile-menu').stop().animate({height: 0}, 400, function () {
+                $('.js-mobile-menu').removeClass('mobile-menu__links--is-active');
+            });
+        } else {
+            var heightOfMenu = getTotalMenuHeight($);
+            $('.js-mobile-menu').stop().animate({height: heightOfMenu}, 400);
+            $('.js-mobile-menu').addClass('mobile-menu__links--is-active');
+        }
+    })
 
-    $(".js-toggle-mobile-menu").toggle(function () {
-        var heightOfMenu = getTotalMenuHeight($);
-        $('.js-mobile-menu').stop().animate({height: heightOfMenu}, 400);
-        $('.js-mobile-menu').addClass('mobile-menu__links--is-active');
-
-    }, function () {
-        $('.js-mobile-menu').stop().animate({height: 0}, 400, function () {
-            $('.js-mobile-menu').removeClass('mobile-menu__links--is-active');
-        });
-    });
 
     //FAQs page
     $('.js-show-hide h2').click(function (e) {
