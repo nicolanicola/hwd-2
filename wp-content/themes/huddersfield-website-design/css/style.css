@@ -4672,9 +4672,9 @@ p {
   font-weight: 600;
   margin-bottom: 1rem; }
 
-.logo-design__image {
-  max-width: 100%;
-  padding: 2rem; }
+.logo-design__image__container {
+  max-width: 70%;
+  margin: auto; }
 
 img {
   max-width: 100%; }

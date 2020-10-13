@@ -70,7 +70,7 @@
             <div class="col-md-6 offset-md-1 order-1 order-md-2">
                 <?php $image = get_field('logo_design'); ?>
                 <?php if ($image): ?>
-                    <figure class="text-center pt-3">
+                    <figure class="text-center pt-3 logo-design__image__container">
                         <img class="logo-design__image"
                              src="<?php echo $image['url']; ?>"
                              alt="<?php the_title(); ?> logo design"
