@@ -45,7 +45,7 @@ function toggleSending($) {
 function handleSubmit(e, $, data) {
     e.preventDefault(); // Prevent the default form submit
     var validatedData = validate(data);
-	gtag_report_conversion();
+    gtag_report_conversion();
     if (validatedData.valid) {
         $('.contact-form__error-message').addClass('hidden');
         $('.contact-form__error').addClass('hidden');
@@ -99,7 +99,8 @@ function validate(data) {
         errors: errors
     }
 }
-function sendTracking (){
+
+function sendTracking() {
     gtag_report_conversion()
     return true;
 }
@@ -112,13 +113,16 @@ function sendTracking (){
         }
     })
     $('.contact-form').submit(function (e) {
-        sendTracking();
-        return true;
+        if ($('#honeypot').val().length === 0) {
+            sendTracking();
+            return true;
+        }
+        return false
         //handleSubmit(e, $, $(this).serializeArray())
     })
 
-    $(".js-toggle-mobile-menu").click(function() {
-        if($(".js-mobile-menu").hasClass('mobile-menu__links--is-active')) {
+    $(".js-toggle-mobile-menu").click(function () {
+        if ($(".js-mobile-menu").hasClass('mobile-menu__links--is-active')) {
             $('.js-mobile-menu').stop().animate({height: 0}, 400, function () {
                 $('.js-mobile-menu').removeClass('mobile-menu__links--is-active');
             });

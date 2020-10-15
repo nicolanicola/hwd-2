@@ -59,6 +59,8 @@ get_header(); ?>
                         <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit button button--block button--primary">
                         <span class="ajax-loader"></span>
                     </p>
+                    <input type="hidden" name="testing" value="" id="honeypot"/>
+
                     <input type="hidden" name="accessKey" value="6b11bb19-15de-46af-ab59-fcb162c9b6c1">
                     <input type="hidden" name="subject" value="Contact us from - huddersfieldwebsitedesigner.co.uk" />
                     <input type="hidden" name="replyTo" value="@">
