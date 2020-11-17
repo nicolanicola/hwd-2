@@ -55,6 +55,8 @@ get_header(); ?>
                             <textarea name="message" cols="40" rows="10" required class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea>
                         </span>
                     </p>
+                    <?php echo $result=  do_shortcode('[bws_google_captcha]');?>
+
                     <p>
                         <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit button button--block button--primary">
                         <span class="ajax-loader"></span>
