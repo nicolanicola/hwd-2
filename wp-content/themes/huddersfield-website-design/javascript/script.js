@@ -113,7 +113,9 @@ function sendTracking() {
         }
     })
     $('.contact-form').submit(function (e) {
-        if ($('#honeypot').val().length === 0) {
+        const captcha = $(e.target).find('.g-recaptcha-response').val();
+
+        if (captcha.length > 0) {
             sendTracking();
             return true;
         }

@@ -4352,7 +4352,8 @@ p {
   height: 230px; }
   @media (min-width: 992px) {
     .home-hero__image {
-      height: 300px; } }
+      height: 300px;
+      padding-top: 90px; } }
 
 .home-hero__text {
   font-weight: 300;
@@ -4367,7 +4368,8 @@ p {
   @media (min-width: 992px) {
     .home-hero__text {
       padding-left: 0;
-      padding-right: 0; } }
+      padding-right: 0;
+      font-size: 26px; } }
 
 .home-hero__text--mobile {
   background-color: #dfdfdf;

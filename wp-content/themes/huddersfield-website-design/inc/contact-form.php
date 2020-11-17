@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <form action="https://api.staticforms.xyz/submit" method="post" class="contact-form" onsubmit="sendTracking()">
     <div class="relative">
         <input type="text"
@@ -26,8 +30,8 @@
                 placeholder="ENTER YOUR MESSAGE"></textarea>
         <div class="contact-form__message__error  contact-form__error  hidden  js-contact-form-error"></div>
     </div>
-    <input type="hidden" name="testing" value="" id="honeypot"/>
     <input type="hidden" name="action" value="contact_send"/>
+    <?php echo $result=  do_shortcode('[bws_google_captcha]');?>
     <button class="button--primary  button  button--block  contact-form__submit">
         <i class="hidden  contact-form__spinner fa fa-circle-o-notch fa-spin"></i>
         <span class="contact-form__submit__text">GET A QUOTE</span>
